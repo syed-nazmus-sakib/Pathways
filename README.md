@@ -8,7 +8,7 @@ This repository contains the code, tasks, evaluation scripts, and run logs for t
 
 ```
 pathways_icml_submission/
-├── README.md                          ← you are here
+├── README.md                          
 │
 ├── reddit/                            ← Reddit moderation benchmark
 │   ├── tasks/                         ← task datasets
@@ -38,7 +38,6 @@ pathways_icml_submission/
 │   ├── ablation_results_detailed.json
 │   ├── ablation_results_v2.json
 │   ├── adversarial_analysis.json
-│   └── paper_table.tex                ← LaTeX table from the paper
 │
 ├── run_logs/                          ← primary evaluation run logs
 │   ├── pathways_evidence_20260126_164024/   ← main GPT evaluation run
@@ -276,18 +275,7 @@ Pre-computed results are in `results/`:
 | `ablation_results_detailed.json` | Ablation study (GPT + Gemini) |
 | `ablation_results_v2.json` | Ablation study (Qwen32b + Qwen235b) |
 | `adversarial_analysis.json` | Adversarial robustness analysis |
-| `paper_table.tex` | LaTeX table from the paper (Table 1) |
 
 ---
 
-## New Contributions (Rebuttal)
 
-The following were added in response to reviewer feedback:
-
-1. **Shopping Admin v4 tasks** (`shopping_admin/tasks/pathways_v4_shopping_tasks.json`)  
-   150 new tasks across 5 new fraud categories with an 8-action decision taxonomy.  
-   Generator: `shopping_admin/task_generation/generate_shopping_v4.py`
-
-2. **Reddit task unification** (`reddit/tasks/reddit_tasks_v2.json`)  
-   Cleaned and unified 139 tasks: 7 categories → 5, 25+ action strings → 9 canonical actions, false alarm detection, accepted alternatives.  
-   Cleaner: `reddit/task_generation/clean_reddit_tasks.py`
