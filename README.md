@@ -1,4 +1,4 @@
-# PATHWAYS: A Multi-Domain Behavioral Forensics Benchmark for Web Agents
+# PATHWAYS: An Investigative Benchmark for Web Agents
 
 This repository contains the code, tasks, evaluation scripts, and run logs for the PATHWAYS benchmark submitted to ICML. The benchmark evaluates web agents on **behavioral forensics** — tasks that require multi-hop UI navigation, synthesis of behavioral evidence, and principled decision-making. All evidence is embedded in raw behavioral data; no pre-written analytical conclusions are provided to the agent.
 
