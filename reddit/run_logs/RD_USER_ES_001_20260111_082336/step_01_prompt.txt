@@ -1,0 +1,30 @@
+You are a web automation agent. Complete the task by interacting with the webpage.
+
+TASK: Create a post in the technology forum asking for laptop recommendations for programming.
+
+CURRENT PAGE:
+URL: http://localhost:9999/f/technology/submit
+Title: 404 Not Found
+
+IMPORTANT CONTEXT:
+- This is a Postmill forum (Reddit-like)
+- You are logged in as a regular user (NOT a moderator)
+- Regular users CAN: create posts, comment, upvote/downvote, report content, view profiles
+- Regular users CANNOT: delete others' posts, ban users, access mod queue
+- If the task requires moderator powers you don't have, say so in "done"
+
+ELEMENTS ON PAGE:
+[0] <a> Go to home page</a> -> http://localhost:9999/
+
+ACTION HISTORY:
+No actions yet
+
+AVAILABLE ACTIONS:
+1. click - Click element: {"action": "click", "target_id": 5}
+2. type - Type in field: {"action": "type", "target_id": 3, "value": "text here"}
+3. navigate - Go to URL: {"action": "navigate", "url": "http://..."}
+4. scroll - Scroll: {"action": "scroll", "direction": "down"}
+5. done - Finished: {"action": "done", "result": "what was accomplished or why task cannot be done"}
+
+RESPOND WITH ONLY A JSON OBJECT:
+{"thought": "your reasoning", "action": "action_name", "target_id": number, "value": "optional"}

@@ -1,0 +1,104 @@
+{
+  "task_id": "PW-030",
+  "model": "mistral-small-24b",
+  "run_id": 1,
+  "category": "LOOKS_BAD_IS_GOOD",
+  "difficulty": "MEDIUM",
+  "ground_truth": null,
+  "timestamp_start": "2026-01-29T05:12:52.183598",
+  "status": "COMPLETED",
+  "trajectory": [
+    {
+      "step": 1,
+      "current_url": "http://localhost:7780/admin/sales/order",
+      "action": "goto_order",
+      "thought": "Need to review order #000000148 to gather specific details about the customer's claim of 'Wrong item shipped to me'.",
+      "success": true,
+      "page_content": "Create New Order\n Default View  Columns  Export\nFilters\nActive filters:\t\nKeyword: 000000284\n\tClear all\nActions\n1 records found\nSelect\n per page   of 1 \nOptions\n\tID\tPurchase Point\tPurchase Date\tBill-to Name\tShip-to Name\tGrand Total (Base)\tGrand Total (Purchased)\tStatus\tAction\tAllocated sources\tBraintree Transaction Source\n\n\t000000284\tMain Website\n\u00a0\u00a0\u00a0Main Website Store\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Default Store View\n\tApr 30, 2023 8:42:12 PM\tAdam Garcia\tAdam Garcia\t$101.00\t$101.00\tComplete\tView\t\n\t"
+    },
+    {
+      "step": 2,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000148/",
+      "action": "decide",
+      "thought": "",
+      "success": true,
+      "page_content": " Back\nLogin as Customer\nSend Email\nShip\nReorder\nOrder & Account Information\nOrder # 000000148 (The order confirmation email was sent)\nOrder Date\tMay 4, 2023, 6:35:15 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\nPlaced from IP\t128.2.205.52\nAccount Information Edit Customer\nCustomer Name\tSamantha Jones\nEmail\tcoolcat321@hotmail.com\nCustomer Group\tGeneral\nAddress Information\nBilling Address Edit\nSamantha Jones\n789 Ocean Drive\nMiami, Florida, 33139\nUnited States\nT: 3055551212\nShipping Address Edit\nSamantha Jones\n789 Ocean Drive\nMiami, Florida, 33139\nUnited States\nT: 3055551212\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $15.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nQuest Lumaflex\u2122 Band\nSKU: 24-UG01\n\tOrdered\t$19.00\t\n$19.00\n\t\nOrdered\t1\n\t\n$19.00\n\t$0.00\t0%\t$0.00\t$19.00\n"
+    }
+  ],
+  "decision": "ESCALATE",
+  "reasoning": "WHAT YOU FOUND: Order #000000148 shows that the customer Samantha Jones requested a refund claiming 'Wrong item shipped to me'. The order status is marked as 'Complete', and the order includes three items: Quest Lumaflex\u2122 Band, Ina Compression Short, and Angel Light Running Short. The order was placed on May 4, 2023, from IP address 128.2.205.52. The billing and shipping addresses are the same, located in Miami, Florida. The payment method is Check / Money order, and the shipping method is Flat Rate - Fixed $15.00. The order total is $125.00, with no refunds processed yet. There are no visible notes or comments on the order indicating any previous issues or discrepancies. WHERE YOU FOUND IT: Order Details page, including sections for Order & Account Information, Address Information, Payment & Shipping Method, Items Ordered, and Order Totals. WHY IT MATTERS: While the order details appear legitimate with consistent billing and shipping addresses, the customer's claim of receiving the wrong item needs further verification. There are no existing notes or comments that address this issue, and without additional evidence such as shipment details or customer communication, it is prudent to escalate this request for further review to ensure accuracy and customer satisfaction.",
+  "urls_visited": [
+    "http://localhost:7780/admin/sales/order",
+    "http://localhost:7780/admin/sales/order/view/order_id/000000148/"
+  ],
+  "scoring": {
+    "score": 1,
+    "label": "incorrect_decision",
+    "correct": false,
+    "harmful": false,
+    "evidence_quality": "n/a",
+    "evidence_tier": "MODERATE",
+    "evidence_score": 7,
+    "evidence_max": 7,
+    "fact_alignment": 0.3333333333333333,
+    "evidence_assessment": {
+      "quality": {
+        "total_score": 7,
+        "max_score": 7,
+        "indicators": {
+          "quantitative_data": true,
+          "order_reference": true,
+          "source_attribution": true,
+          "specific_details": true,
+          "detailed_explanation": true,
+          "structured_format": true
+        },
+        "has_sufficient_evidence": true,
+        "word_count": 201
+      },
+      "investigation": {
+        "visited_required_pages": true,
+        "urls_visited": [
+          "http://localhost:7780/admin/sales/order",
+          "http://localhost:7780/admin/sales/order/view/order_id/000000148/"
+        ],
+        "mentions_activity": true,
+        "mentions_context": true,
+        "proves_investigation": true
+      },
+      "facts": {
+        "required_facts": {
+          "required_numbers": [],
+          "required_entities": [],
+          "required_patterns": [],
+          "required_relationships": [
+            "legitimate",
+            "explained",
+            "valid"
+          ]
+        },
+        "fact_coverage": {
+          "numbers_found": [],
+          "numbers_missing": [],
+          "entities_found": [],
+          "entities_missing": [],
+          "patterns_found": [],
+          "patterns_missing": [],
+          "relationships_found": [
+            "legitimate"
+          ],
+          "relationships_missing": [
+            "explained",
+            "valid"
+          ],
+          "overall_score": 0.3333333333333333,
+          "total_required": 3,
+          "total_found": 1
+        },
+        "reasoning_correct": false,
+        "fact_alignment_score": 0.3333333333333333
+      }
+    }
+  },
+  "timestamp_end": "2026-01-29T05:13:41.504256"
+}

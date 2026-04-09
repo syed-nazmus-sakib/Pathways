@@ -1,0 +1,41 @@
+{
+  "task_id": "PW-001",
+  "model": "gemini",
+  "instruction_condition": "minimal",
+  "run_id": 2,
+  "status": "COMPLETED",
+  "category": "OBVIOUS_FRAUD",
+  "difficulty": "EASY",
+  "ground_truth": "ESCALATE",
+  "decision": "ESCALATE",
+  "reasoning": "The customer claims the package was never delivered. However, internal order notes from Jan 15, 2026, indicate a 'classic fraud evolution pattern' for this customer, noting that while early refund requests were legitimate, the four most recent requests (including this one) claim non-receipt despite tracking confirming delivery. Although there is a conflicting note regarding an inventory error, the specific flag for fraudulent behavior regarding 'not received' claims necessitates escalation to the fraud department for a final determination.",
+  "score": 3,
+  "score_label": "optimal",
+  "correct": true,
+  "harmful": false,
+  "pages_visited": [
+    "orders",
+    "order"
+  ],
+  "investigated": true,
+  "investigated_before_decision": true,
+  "first_order_visit_step": 1,
+  "saw_comments": true,
+  "context_used": true,
+  "total_steps": 2,
+  "trajectory": [
+    {
+      "action": "goto",
+      "page": "order",
+      "thought": "I need to view the details of order #000000535 to verify the customer name, order total, and shipping status before making a decision on the refund request."
+    },
+    {
+      "action": "decide",
+      "decision": "ESCALATE",
+      "reasoning": "The customer claims the package was never delivered. However, internal order notes from Jan 15, 2026, indicate a 'classic fraud evolution pattern' for this customer, noting that while early refund requests were legitimate, the four most recent requests (including this one) claim non-receipt despite tracking confirming delivery. Although there is a conflicting note regarding an inventory error, the specific flag for fraudulent behavior regarding 'not received' claims necessitates escalation to the fraud department for a final determination."
+    }
+  ],
+  "network_errors": [],
+  "network_error_rate": 0.0,
+  "exclude_from_analysis": false
+}

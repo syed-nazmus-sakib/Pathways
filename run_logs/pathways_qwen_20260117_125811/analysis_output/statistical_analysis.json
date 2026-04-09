@@ -1,0 +1,152 @@
+{
+  "run_status": {
+    "total": 1600,
+    "completed": 935,
+    "timeout": 665,
+    "system_error": 0,
+    "network_corrupted": 0
+  },
+  "reliability": {
+    "configs_with_multiple_runs": 456,
+    "run_distribution": {
+      "2": 456
+    }
+  },
+  "model_comparison": {
+    "kruskal_wallis": {
+      "h": 1.3017968826533473,
+      "p": 0.25388526302761694
+    },
+    "model_stats": {
+      "qwen235b": {
+        "n": 654,
+        "accuracy": 0.5275229357798165
+      },
+      "qwen32b": {
+        "n": 281,
+        "accuracy": 0.5622775800711743
+      }
+    }
+  },
+  "condition_effects": {
+    "condition_stats": {
+      "explicit": {
+        "n": 59,
+        "correct": 29,
+        "investigated": 59,
+        "discovered": 32,
+        "used": 26
+      },
+      "hint": {
+        "n": 257,
+        "correct": 122,
+        "investigated": 257,
+        "discovered": 69,
+        "used": 81
+      },
+      "minimal": {
+        "n": 269,
+        "correct": 151,
+        "investigated": 269,
+        "discovered": 64,
+        "used": 65
+      },
+      "adversarial": {
+        "n": 350,
+        "correct": 201,
+        "investigated": 350,
+        "discovered": 78,
+        "used": 79
+      }
+    }
+  },
+  "context_pipeline": {
+    "investigation_rate": 1.0,
+    "discovery_rate": 0.25989304812834224,
+    "utilization_rate": 1.0329218106995885,
+    "accuracy_with_context": 0.6414342629482072,
+    "accuracy_without_context": 0.5
+  },
+  "difficulty": {
+    "EASY": {
+      "n": 227,
+      "accuracy": 0.762114537444934,
+      "mean_score": 2.5859030837004404,
+      "context_use_rate": 0.36123348017621143
+    },
+    "MEDIUM": {
+      "n": 257,
+      "accuracy": 0.29961089494163423,
+      "mean_score": 1.8910505836575875,
+      "context_use_rate": 0.33852140077821014
+    },
+    "HARD": {
+      "n": 241,
+      "accuracy": 0.6763485477178424,
+      "mean_score": 2.3526970954356847,
+      "context_use_rate": 0.29045643153526973
+    },
+    "VERY_HARD": {
+      "n": 112,
+      "accuracy": 0.7678571428571429,
+      "mean_score": 2.6785714285714284,
+      "context_use_rate": 0.0
+    },
+    "EXPERT": {
+      "n": 98,
+      "accuracy": 0.04081632653061224,
+      "mean_score": 1.0816326530612246,
+      "context_use_rate": 0.12244897959183673
+    }
+  },
+  "categories": {
+    "EDGE_CASE": {
+      "n": 98,
+      "accuracy": 0.04081632653061224,
+      "context_use_rate": 0.12244897959183673,
+      "investigation_rate": 1.0
+    },
+    "LOOKS_BAD_IS_GOOD": {
+      "n": 148,
+      "accuracy": 0.3108108108108108,
+      "context_use_rate": 0.3108108108108108,
+      "investigation_rate": 1.0
+    },
+    "LOOKS_GOOD_IS_BAD": {
+      "n": 142,
+      "accuracy": 0.7464788732394366,
+      "context_use_rate": 0.34507042253521125,
+      "investigation_rate": 1.0
+    },
+    "NO_EXPLICIT_NOTE": {
+      "n": 112,
+      "accuracy": 0.7678571428571429,
+      "context_use_rate": 0.0,
+      "investigation_rate": 1.0
+    },
+    "OBVIOUS_FRAUD": {
+      "n": 119,
+      "accuracy": 0.7310924369747899,
+      "context_use_rate": 0.6890756302521008,
+      "investigation_rate": 1.0
+    },
+    "SECURITY_THREAT": {
+      "n": 99,
+      "accuracy": 0.5757575757575758,
+      "context_use_rate": 0.21212121212121213,
+      "investigation_rate": 1.0
+    },
+    "VIP_CUSTOMER": {
+      "n": 108,
+      "accuracy": 0.7962962962962963,
+      "context_use_rate": 0.0,
+      "investigation_rate": 1.0
+    },
+    "WAREHOUSE_OPERATIONAL": {
+      "n": 109,
+      "accuracy": 0.28440366972477066,
+      "context_use_rate": 0.3761467889908257,
+      "investigation_rate": 1.0
+    }
+  }
+}

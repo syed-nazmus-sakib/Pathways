@@ -1,0 +1,80 @@
+You are a web automation agent. Complete the task by interacting with the webpage.
+
+TASK: Someone in AskReddit is asking for advice about confronting a coworker who they believe is stealing their work. Give them advice.
+
+CURRENT PAGE:
+URL: http://localhost:9999/f/AskReddit
+Title: AskReddit
+
+IMPORTANT CONTEXT:
+- This is a Postmill forum (Reddit-like)
+- You are logged in as a regular user (NOT a moderator)
+- Regular users CAN: create posts, comment, upvote/downvote, report content, view profiles
+- Regular users CANNOT: delete others' posts, ban users, access mod queue
+- If the task requires moderator powers you don't have, say so in "done"
+
+ELEMENTS ON PAGE:
+[0] <a> Jump to main content</a> -> p://localhost:9999/f/AskReddit#main
+[1] <a> Jump to sidebar</a> -> /localhost:9999/f/AskReddit#sidebar
+[2] <a> Postmill</a> -> http://localhost:9999/
+[4] <a> Forums</a> -> http://localhost:9999/forums
+[5] <a> Wiki</a> -> http://localhost:9999/wiki
+[7] <input type='search'> VALUE="confronting coworker stealing "</input>
+[8] <a> Notifications (0)</a> -> http://localhost:9999/notifications
+[9] <a> Submit</a> -> p://localhost:9999/submit/AskReddit
+[10] <button type='button'> MarvelsGrantMan136</button>
+[19] <a> Submissions</a> -> http://localhost:9999/f/AskReddit
+[20] <a> Comments</a> -> localhost:9999/f/AskReddit/comments
+[21] <button type='button'> Hot</button>
+[28] <a> Why bleaching your butthole isn’t called</a> -> leaching-your-butthole-isn-t-called
+[29] <a> VampiricBanghole</a> -> ocalhost:9999/user/VampiricBanghole
+[30] <a> 16 comments</a> -> leaching-your-butthole-isn-t-called
+[32] <button type='submit'> VALUE="1"</button>
+[33] <button type='submit'> VALUE="-1"</button>
+[34] <a> What is a battle that you are losing rig</a> -> is-a-battle-that-you-are-losing-rig
+[35] <a> FrankTheBanker76</a> -> ocalhost:9999/user/FrankTheBanker76
+[36] <a> 1 comment</a> -> is-a-battle-that-you-are-losing-rig
+[38] <button type='submit'> VALUE="1"</button>
+[39] <button type='submit'> VALUE="-1"</button>
+[40] <a> what song describes your love life atm?</a> -> t-song-describes-your-love-life-atm
+[41] <a> SashaGreatest</a> -> //localhost:9999/user/SashaGreatest
+[42] <a> 14 comments</a> -> t-song-describes-your-love-life-atm
+[44] <button type='submit'> VALUE="1"</button>
+[45] <button type='submit'> VALUE="-1"</button>
+[46] <a> parents of reddit: what would you do if </a> -> nts-of-reddit-what-would-you-do-if-
+[47] <a> SashaGreatest</a> -> //localhost:9999/user/SashaGreatest
+[48] <a> 3 comments</a> -> nts-of-reddit-what-would-you-do-if-
+[50] <button type='submit'> VALUE="1"</button>
+[51] <button type='submit'> VALUE="-1"</button>
+[52] <a> What is the best way to remove a champag</a> -> is-the-best-way-to-remove-a-champag
+[53] <a> [deleted]</a> -> //localhost:9999/user/%5Bdeleted%5D
+[54] <a> 87 comments</a> -> is-the-best-way-to-remove-a-champag
+[56] <button type='submit'> VALUE="1"</button>
+[57] <button type='submit'> VALUE="-1"</button>
+[58] <a> You win $1B but in exchange you can neve</a> -> in-1b-but-in-exchange-you-can-never
+[59] <a> a1bells</a> -> http://localhost:9999/user/a1bells
+[60] <a> 57 comments</a> -> in-1b-but-in-exchange-you-can-never
+[62] <button type='submit'> VALUE="1"</button>
+[63] <button type='submit'> VALUE="-1"</button>
+[64] <a> Men of Reddit, when a guy says “i like y</a> -> f-reddit-when-a-guy-says-i-like-you
+[65] <a> [deleted]</a> -> //localhost:9999/user/%5Bdeleted%5D
+[66] <a> 75 comments</a> -> f-reddit-when-a-guy-says-i-like-you
+[68] <button type='submit'> VALUE="1"</button>
+[69] <button type='submit'> VALUE="-1"</button>
+[70] <a> what is the most convincing conspiracy t</a> -> is-the-most-convincing-conspiracy-t
+[71] <a> fulmine563</a> -> tp://localhost:9999/user/fulmine563
+[72] <a> 10 comments</a> -> is-the-most-convincing-conspiracy-t
+
+ACTION HISTORY:
+Step 1: type [7] -> Typed 'confronting coworker st
+
+
+AVAILABLE ACTIONS:
+1. click - Click element: {"action": "click", "target_id": 5}
+2. type - Type in field: {"action": "type", "target_id": 3, "value": "text here"}
+3. navigate - Go to URL: {"action": "navigate", "url": "http://..."}
+4. scroll - Scroll: {"action": "scroll", "direction": "down"}
+5. done - Finished: {"action": "done", "result": "what was accomplished or why task cannot be done"}
+
+RESPOND WITH ONLY A JSON OBJECT:
+{"thought": "your reasoning", "action": "action_name", "target_id": number, "value": "optional"}

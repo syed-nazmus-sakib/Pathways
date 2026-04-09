@@ -1,0 +1,4657 @@
+{
+  "total": 150,
+  "passed": 150,
+  "failed": 0,
+  "tasks": [
+    {
+      "task_id": "PW4_CHARGE_001",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300001,
+      "target_order_id": 310005,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Emma Scott (emma.scott.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310005 total=158.64 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310005/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_002",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300002,
+      "target_order_id": 310011,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Carlos Nguyen (carlos.nguyen.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310011 total=261.01 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310011/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_003",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300003,
+      "target_order_id": 310016,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Margaret Wood (margaret.wood.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310016 total=225.49 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310016/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_004",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300004,
+      "target_order_id": 310027,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Shirley Allen (shirley.allen.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310027 total=842.59 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310027/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "10/10 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_005",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300005,
+      "target_order_id": 310038,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Alexander Sanchez (alexander.sanchez.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310038 total=513.08 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310038/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "10/10 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_006",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300006,
+      "target_order_id": 310045,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Barbara Cruz (barbara.cruz.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310045 total=328.51 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310045/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_007",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300007,
+      "target_order_id": 310053,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Helen Hernandez (helen.hernandez.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310053 total=331.45 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310053/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "7/7 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_008",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300008,
+      "target_order_id": 310058,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Elizabeth Brooks (elizabeth.brooks.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310058 total=108.37 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310058/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_009",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300009,
+      "target_order_id": 310063,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Christine Wilson (christine.wilson.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310063 total=169.93 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310063/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_010",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300010,
+      "target_order_id": 310069,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Stephanie Nelson (stephanie.nelson.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310069 total=279.9 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310069/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_011",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300011,
+      "target_order_id": 310078,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "James Gutierrez (james.gutierrez.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310078 total=415.84 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310078/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_012",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300012,
+      "target_order_id": 310089,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Katherine Ruiz (katherine.ruiz.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310089 total=694.18 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310089/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "10/10 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_013",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300013,
+      "target_order_id": 310098,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Deborah Foster (deborah.foster.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310098 total=788.4 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310098/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_014",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300014,
+      "target_order_id": 310107,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Robert Myers (robert.myers.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310107 total=606.24 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310107/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_015",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300015,
+      "target_order_id": 310113,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Raymond Baker (raymond.baker.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310113 total=148.77 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310113/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_016",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300016,
+      "target_order_id": 310123,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Michelle White (michelle.white.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310123 total=667.89 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310123/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "9/9 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_017",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300017,
+      "target_order_id": 310132,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Emily Robinson (emily.robinson.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310132 total=229.39 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310132/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_018",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300018,
+      "target_order_id": 310137,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Christopher Smith (christopher.smith.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310137 total=258.53 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310137/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_019",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300019,
+      "target_order_id": 310142,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Rachel Phillips (rachel.phillips.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310142 total=187.18 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310142/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_020",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300020,
+      "target_order_id": 310150,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Brian Adams (brian.adams.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310150 total=274.65 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310150/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "7/7 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_021",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300021,
+      "target_order_id": 310156,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Deborah Harris (deborah.harris.chg2@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310156 total=176.59 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310156/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_022",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300022,
+      "target_order_id": 310165,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Patrick Russell (patrick.russell.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310165 total=762.3 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310165/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_023",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300023,
+      "target_order_id": 310173,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Emily Rivera (emily.rivera.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310173 total=443.38 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310173/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "7/7 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_024",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300024,
+      "target_order_id": 310184,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Andrew Jimenez (andrew.jimenez.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310184 total=752.77 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310184/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "10/10 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_025",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300025,
+      "target_order_id": 310193,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Frank Robinson (frank.robinson.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310193 total=206.94 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310193/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_026",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300026,
+      "target_order_id": 310200,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Michael Powell (michael.powell.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310200 total=285.6 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310200/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_027",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300027,
+      "target_order_id": 310210,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Linda Morris (linda.morris.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310210 total=491.95 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310210/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "9/9 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_028",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300028,
+      "target_order_id": 310219,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Linda Ramos (linda.ramos.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310219 total=243.49 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310219/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_029",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300029,
+      "target_order_id": 310227,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Frank Hernandez (frank.hernandez.chg@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310227 total=426.35 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310227/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "7/7 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_CHARGE_030",
+      "category": "friendly_fraud_chargeback",
+      "customer_id": 300030,
+      "target_order_id": 310238,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Emily Anderson (emily.anderson.chg3@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310238 total=648.99 status=complete"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310238/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "10/10 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_001",
+      "category": "promo_abuse",
+      "customer_id": 300031,
+      "target_order_id": 310245,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Susan Russell (susan.russell.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310245 total=95.47 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310245/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_002",
+      "category": "promo_abuse",
+      "customer_id": 300032,
+      "target_order_id": 310251,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Ronald Chavez (ronald.chavez.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310251 total=151.67 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310251/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_003",
+      "category": "promo_abuse",
+      "customer_id": 300033,
+      "target_order_id": 310258,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Alexander Foster (alexander.foster.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310258 total=165.37 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310258/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_004",
+      "category": "promo_abuse",
+      "customer_id": 300034,
+      "target_order_id": 310263,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "David Ross (david.ross.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310263 total=158 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310263/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_005",
+      "category": "promo_abuse",
+      "customer_id": 300035,
+      "target_order_id": 310269,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Andrew Weber (andrew.weber.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310269 total=172.46 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310269/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_006",
+      "category": "promo_abuse",
+      "customer_id": 300037,
+      "target_order_id": 310276,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jeffrey Smith (jeffrey.smith.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310276 total=197.7 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310276/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_007",
+      "category": "promo_abuse",
+      "customer_id": 300038,
+      "target_order_id": 310284,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "William Alvarez (william.alvarez.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310284 total=186.39 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310284/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_008",
+      "category": "promo_abuse",
+      "customer_id": 300040,
+      "target_order_id": 310292,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Michelle Wilson (michelle.wilson.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310292 total=112.03 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310292/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_009",
+      "category": "promo_abuse",
+      "customer_id": 300042,
+      "target_order_id": 310300,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Katherine Scott (katherine.scott.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310300 total=149.03 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310300/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_010",
+      "category": "promo_abuse",
+      "customer_id": 300044,
+      "target_order_id": 310306,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Donna Gomez (donna.gomez.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310306 total=121.41 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310306/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_011",
+      "category": "promo_abuse",
+      "customer_id": 300046,
+      "target_order_id": 310314,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Benjamin Morgan (benjamin.morgan.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310314 total=248.08 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310314/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_012",
+      "category": "promo_abuse",
+      "customer_id": 300048,
+      "target_order_id": 310318,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Sofia Mitchell (sofia.mitchell.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310318 total=117.53 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310318/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_013",
+      "category": "promo_abuse",
+      "customer_id": 300049,
+      "target_order_id": 310324,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Cynthia Murphy (cynthia.murphy.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310324 total=88.82 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310324/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_014",
+      "category": "promo_abuse",
+      "customer_id": 300050,
+      "target_order_id": 310332,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Kimberly Mueller (kimberly.mueller.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310332 total=165.98 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310332/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_015",
+      "category": "promo_abuse",
+      "customer_id": 300052,
+      "target_order_id": 310337,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Frank Anderson (frank.anderson.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310337 total=117.64 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310337/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_016",
+      "category": "promo_abuse",
+      "customer_id": 300053,
+      "target_order_id": 310341,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jason Cook (jason.cook.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310341 total=103.07 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310341/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_017",
+      "category": "promo_abuse",
+      "customer_id": 300054,
+      "target_order_id": 310348,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Joshua Lewis (joshua.lewis.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310348 total=153.88 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310348/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_018",
+      "category": "promo_abuse",
+      "customer_id": 300055,
+      "target_order_id": 310353,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Christine Ortiz (christine.ortiz.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310353 total=144.22 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310353/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_019",
+      "category": "promo_abuse",
+      "customer_id": 300056,
+      "target_order_id": 310360,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Daniel Jones (daniel.jones.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310360 total=179.24 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310360/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_020",
+      "category": "promo_abuse",
+      "customer_id": 300057,
+      "target_order_id": 310364,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Stephanie Bennett (stephanie.bennett.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310364 total=108.36 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310364/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_021",
+      "category": "promo_abuse",
+      "customer_id": 300058,
+      "target_order_id": 310369,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Christopher Phillips (christopher.phillips.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310369 total=164.45 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310369/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_022",
+      "category": "promo_abuse",
+      "customer_id": 300059,
+      "target_order_id": 310374,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Larry Cook (larry.cook.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310374 total=110.53 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310374/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_023",
+      "category": "promo_abuse",
+      "customer_id": 300060,
+      "target_order_id": 310378,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Barbara Garcia (barbara.garcia.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310378 total=89.63 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310378/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_024",
+      "category": "promo_abuse",
+      "customer_id": 300061,
+      "target_order_id": 310385,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jessica Thompson (jessica.thompson.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310385 total=160.23 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310385/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_025",
+      "category": "promo_abuse",
+      "customer_id": 300063,
+      "target_order_id": 310390,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Sarah Cook (sarah.cook.promook@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310390 total=163.56 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310390/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_026",
+      "category": "promo_abuse",
+      "customer_id": 300064,
+      "target_order_id": 310397,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Ronald White (ronald.white.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310397 total=116.38 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310397/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_027",
+      "category": "promo_abuse",
+      "customer_id": 300065,
+      "target_order_id": 310405,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Dennis Thomas (dennis.thomas.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310405 total=169.89 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310405/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_028",
+      "category": "promo_abuse",
+      "customer_id": 300067,
+      "target_order_id": 310412,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jack Chavez (jack.chavez.promo@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310412 total=205.55 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310412/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_029",
+      "category": "promo_abuse",
+      "customer_id": 300069,
+      "target_order_id": 310419,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Eric Sullivan (eric.sullivan.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310419 total=147.9 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310419/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_PROMO_030",
+      "category": "promo_abuse",
+      "customer_id": 300070,
+      "target_order_id": 310425,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Sandra Ramirez (sandra.ramirez.promofl@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310425 total=107.86 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310425/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_001",
+      "category": "cross_account_linking",
+      "customer_id": 300071,
+      "target_order_id": 310433,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Carolyn Powell (carolyn.powell.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310433 total=260.23 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310433/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_002",
+      "category": "cross_account_linking",
+      "customer_id": 300073,
+      "target_order_id": 310441,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Lisa Parker (lisa.parker.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310441 total=386.41 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310441/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_003",
+      "category": "cross_account_linking",
+      "customer_id": 300075,
+      "target_order_id": 310451,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Carlos Mendoza (carlos.mendoza.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310451 total=121.28 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310451/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_004",
+      "category": "cross_account_linking",
+      "customer_id": 300077,
+      "target_order_id": 310460,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Edward Mitchell (edward.mitchell.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310460 total=135.57 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310460/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_005",
+      "category": "cross_account_linking",
+      "customer_id": 300079,
+      "target_order_id": 310469,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Patricia Patel (patricia.patel.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310469 total=237.15 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310469/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_006",
+      "category": "cross_account_linking",
+      "customer_id": 300081,
+      "target_order_id": 310478,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Nicholas Perez (nicholas.perez.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310478 total=151.2 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310478/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_007",
+      "category": "cross_account_linking",
+      "customer_id": 300083,
+      "target_order_id": 310487,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jeffrey Wilson (jeffrey.wilson.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310487 total=356.87 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310487/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_008",
+      "category": "cross_account_linking",
+      "customer_id": 300085,
+      "target_order_id": 310495,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Laura Martinez (laura.martinez.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310495 total=337.34 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310495/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_009",
+      "category": "cross_account_linking",
+      "customer_id": 300087,
+      "target_order_id": 310503,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Melissa Bennett (melissa.bennett.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310503 total=588.97 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310503/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_010",
+      "category": "cross_account_linking",
+      "customer_id": 300089,
+      "target_order_id": 310511,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Debra Cruz (debra.cruz.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310511 total=306.68 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310511/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_011",
+      "category": "cross_account_linking",
+      "customer_id": 300091,
+      "target_order_id": 310520,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Margaret Garcia (margaret.garcia.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310520 total=608.57 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310520/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_012",
+      "category": "cross_account_linking",
+      "customer_id": 300093,
+      "target_order_id": 310530,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Shirley Wright (shirley.wright.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310530 total=165.24 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310530/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_013",
+      "category": "cross_account_linking",
+      "customer_id": 300095,
+      "target_order_id": 310539,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Elizabeth Peterson (elizabeth.peterson.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310539 total=527.13 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310539/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_014",
+      "category": "cross_account_linking",
+      "customer_id": 300097,
+      "target_order_id": 310548,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Dorothy Nguyen (dorothy.nguyen.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310548 total=65.87 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310548/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_015",
+      "category": "cross_account_linking",
+      "customer_id": 300099,
+      "target_order_id": 310557,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Patricia Phillips (patricia.phillips.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310557 total=499.56 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310557/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_016",
+      "category": "cross_account_linking",
+      "customer_id": 300101,
+      "target_order_id": 310566,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Kimberly Roberts (kimberly.roberts.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310566 total=318.5 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310566/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_017",
+      "category": "cross_account_linking",
+      "customer_id": 300103,
+      "target_order_id": 310574,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Justin Reed (justin.reed.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310574 total=76.37 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310574/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_018",
+      "category": "cross_account_linking",
+      "customer_id": 300105,
+      "target_order_id": 310583,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Katherine Green (katherine.green.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310583 total=298.62 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310583/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_019",
+      "category": "cross_account_linking",
+      "customer_id": 300107,
+      "target_order_id": 310592,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Ronald Gonzalez (ronald.gonzalez.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310592 total=335.05 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310592/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_020",
+      "category": "cross_account_linking",
+      "customer_id": 300109,
+      "target_order_id": 310602,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Patricia Clark (patricia.clark.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310602 total=380.09 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310602/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_021",
+      "category": "cross_account_linking",
+      "customer_id": 300111,
+      "target_order_id": 310611,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Daniel Perez (daniel.perez.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310611 total=255.08 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310611/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_022",
+      "category": "cross_account_linking",
+      "customer_id": 300113,
+      "target_order_id": 310621,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Edward Okafor (edward.okafor.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310621 total=554.16 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310621/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_023",
+      "category": "cross_account_linking",
+      "customer_id": 300115,
+      "target_order_id": 310630,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Nicholas Mitchell (nicholas.mitchell.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310630 total=86.19 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310630/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_024",
+      "category": "cross_account_linking",
+      "customer_id": 300117,
+      "target_order_id": 310639,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Edward Howard (edward.howard.xlink@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310639 total=488.31 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310639/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_025",
+      "category": "cross_account_linking",
+      "customer_id": 300119,
+      "target_order_id": 310648,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Katherine Lopez (katherine.lopez.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310648 total=357.04 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310648/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_026",
+      "category": "cross_account_linking",
+      "customer_id": 300121,
+      "target_order_id": 310657,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Samantha Parker (samantha.parker.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310657 total=62.29 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310657/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_027",
+      "category": "cross_account_linking",
+      "customer_id": 300123,
+      "target_order_id": 310665,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Janet Williams (janet.williams.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310665 total=302.32 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310665/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_028",
+      "category": "cross_account_linking",
+      "customer_id": 300125,
+      "target_order_id": 310674,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Susan Powell (susan.powell.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310674 total=71.4 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310674/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_029",
+      "category": "cross_account_linking",
+      "customer_id": 300127,
+      "target_order_id": 310684,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Gregory Chavez (gregory.chavez.xlesc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310684 total=303.82 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310684/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_XLINK_030",
+      "category": "cross_account_linking",
+      "customer_id": 300129,
+      "target_order_id": 310692,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "George Morris (george.morris.family@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310692 total=125.89 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310692/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_001",
+      "category": "gift_card_fraud",
+      "customer_id": 300131,
+      "target_order_id": 310699,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jennifer Perez (jennifer.perez.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310699 total=227.74 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310699/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_002",
+      "category": "gift_card_fraud",
+      "customer_id": 300132,
+      "target_order_id": 310704,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Yuki Moore (yuki.moore.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310704 total=262.58 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310704/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_003",
+      "category": "gift_card_fraud",
+      "customer_id": 300133,
+      "target_order_id": 310711,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jeffrey Russell (jeffrey.russell.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310711 total=279.6 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310711/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_004",
+      "category": "gift_card_fraud",
+      "customer_id": 300134,
+      "target_order_id": 310715,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Betty Jimenez (betty.jimenez.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310715 total=432.64 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310715/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_005",
+      "category": "gift_card_fraud",
+      "customer_id": 300135,
+      "target_order_id": 310720,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Michelle Kim (michelle.kim.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310720 total=331.96 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310720/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_006",
+      "category": "gift_card_fraud",
+      "customer_id": 300136,
+      "target_order_id": 310726,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Brenda Mueller (brenda.mueller.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310726 total=45.33 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310726/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_007",
+      "category": "gift_card_fraud",
+      "customer_id": 300137,
+      "target_order_id": 310733,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Debra Diaz (debra.diaz.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310733 total=70.24 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310733/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_008",
+      "category": "gift_card_fraud",
+      "customer_id": 300138,
+      "target_order_id": 310738,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Eric Wilson (eric.wilson.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310738 total=269.43 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310738/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_009",
+      "category": "gift_card_fraud",
+      "customer_id": 300139,
+      "target_order_id": 310742,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Catherine Patel (catherine.patel.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310742 total=386.28 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310742/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_010",
+      "category": "gift_card_fraud",
+      "customer_id": 300140,
+      "target_order_id": 310746,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Thomas Bennett (thomas.bennett.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310746 total=385.61 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310746/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_011",
+      "category": "gift_card_fraud",
+      "customer_id": 300141,
+      "target_order_id": 310751,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Sarah Gray (sarah.gray.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310751 total=487.9 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310751/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_012",
+      "category": "gift_card_fraud",
+      "customer_id": 300142,
+      "target_order_id": 310760,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Katherine Jimenez (katherine.jimenez.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310760 total=248.42 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310760/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_013",
+      "category": "gift_card_fraud",
+      "customer_id": 300143,
+      "target_order_id": 310769,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Emma Wood (emma.wood.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310769 total=242 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310769/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_014",
+      "category": "gift_card_fraud",
+      "customer_id": 300144,
+      "target_order_id": 310778,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "David Ramirez (david.ramirez.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310778 total=222.06 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310778/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_015",
+      "category": "gift_card_fraud",
+      "customer_id": 300145,
+      "target_order_id": 310785,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Steven Morris (steven.morris.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310785 total=52.96 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310785/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_016",
+      "category": "gift_card_fraud",
+      "customer_id": 300146,
+      "target_order_id": 310792,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Pamela Hall (pamela.hall.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310792 total=68.46 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310792/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_017",
+      "category": "gift_card_fraud",
+      "customer_id": 300147,
+      "target_order_id": 310798,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Ryan Johnson (ryan.johnson.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310798 total=61.22 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310798/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_018",
+      "category": "gift_card_fraud",
+      "customer_id": 300148,
+      "target_order_id": 310805,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Pamela Smith (pamela.smith.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310805 total=189.12 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310805/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_019",
+      "category": "gift_card_fraud",
+      "customer_id": 300149,
+      "target_order_id": 310811,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Amanda Ramirez (amanda.ramirez.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310811 total=57.23 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310811/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_020",
+      "category": "gift_card_fraud",
+      "customer_id": 300150,
+      "target_order_id": 310817,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Sofia Rogers (sofia.rogers.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310817 total=59.2 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310817/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_021",
+      "category": "gift_card_fraud",
+      "customer_id": 300151,
+      "target_order_id": 310824,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Benjamin Baker (benjamin.baker.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310824 total=47.21 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310824/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_022",
+      "category": "gift_card_fraud",
+      "customer_id": 300152,
+      "target_order_id": 310828,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Brenda Kumar (brenda.kumar.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310828 total=297.34 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310828/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_023",
+      "category": "gift_card_fraud",
+      "customer_id": 300153,
+      "target_order_id": 310833,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Hiro Torres (hiro.torres.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310833 total=385.52 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310833/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_024",
+      "category": "gift_card_fraud",
+      "customer_id": 300154,
+      "target_order_id": 310842,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Hiro Nakamura (hiro.nakamura.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310842 total=233.38 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310842/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_025",
+      "category": "gift_card_fraud",
+      "customer_id": 300155,
+      "target_order_id": 310851,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Brandon Collins (brandon.collins.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310851 total=271.74 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310851/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_026",
+      "category": "gift_card_fraud",
+      "customer_id": 300156,
+      "target_order_id": 310860,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Yuki Wright (yuki.wright.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310860 total=278.07 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310860/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "8/8 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_027",
+      "category": "gift_card_fraud",
+      "customer_id": 300157,
+      "target_order_id": 310866,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Ryan Young (ryan.young.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310866 total=40.15 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310866/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_028",
+      "category": "gift_card_fraud",
+      "customer_id": 300158,
+      "target_order_id": 310872,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Miguel Young (miguel.young.gcok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310872 total=47.24 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310872/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_029",
+      "category": "gift_card_fraud",
+      "customer_id": 300159,
+      "target_order_id": 310876,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Patrick Cruz (patrick.cruz.gc@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310876 total=368.36 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310876/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_GCARD_030",
+      "category": "gift_card_fraud",
+      "customer_id": 300160,
+      "target_order_id": 310883,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Janet White (janet.white.gcban@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310883 total=206.49 status=pending"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310883/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_001",
+      "category": "false_item_not_received",
+      "customer_id": 300161,
+      "target_order_id": 310891,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Shirley James (shirley.james.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310891 total=102.96 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310891/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "7/7 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_002",
+      "category": "false_item_not_received",
+      "customer_id": 300162,
+      "target_order_id": 310897,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Kevin Williams (kevin.williams.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310897 total=204.23 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310897/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_003",
+      "category": "false_item_not_received",
+      "customer_id": 300163,
+      "target_order_id": 310904,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "George Okafor (george.okafor.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310904 total=211.55 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310904/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_004",
+      "category": "false_item_not_received",
+      "customer_id": 300164,
+      "target_order_id": 310909,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Edward Wood (edward.wood.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310909 total=56.73 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310909/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_005",
+      "category": "false_item_not_received",
+      "customer_id": 300165,
+      "target_order_id": 310913,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Kenji Sanders (kenji.sanders.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310913 total=81.78 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310913/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_006",
+      "category": "false_item_not_received",
+      "customer_id": 300166,
+      "target_order_id": 310920,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Helen Sanders (helen.sanders.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310920 total=163.29 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310920/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_007",
+      "category": "false_item_not_received",
+      "customer_id": 300167,
+      "target_order_id": 310928,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Samuel Hill (samuel.hill.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310928 total=133.99 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310928/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "7/7 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_008",
+      "category": "false_item_not_received",
+      "customer_id": 300168,
+      "target_order_id": 310935,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Joshua Cruz (joshua.cruz.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310935 total=110.1 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310935/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_009",
+      "category": "false_item_not_received",
+      "customer_id": 300169,
+      "target_order_id": 310940,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jeffrey Phillips (jeffrey.phillips.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310940 total=154.72 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310940/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_010",
+      "category": "false_item_not_received",
+      "customer_id": 300170,
+      "target_order_id": 310946,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Jeffrey Nguyen (jeffrey.nguyen.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310946 total=99.41 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310946/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_011",
+      "category": "false_item_not_received",
+      "customer_id": 300171,
+      "target_order_id": 310953,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Janet Jenkins (janet.jenkins.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310953 total=155.12 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310953/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_012",
+      "category": "false_item_not_received",
+      "customer_id": 300172,
+      "target_order_id": 310958,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Michael White (michael.white.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310958 total=134.88 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310958/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_013",
+      "category": "false_item_not_received",
+      "customer_id": 300173,
+      "target_order_id": 310966,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Emily Stewart (emily.stewart.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310966 total=139.44 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310966/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "7/7 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_014",
+      "category": "false_item_not_received",
+      "customer_id": 300174,
+      "target_order_id": 310971,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Miguel Rodriguez (miguel.rodriguez.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310971 total=186.62 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310971/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_015",
+      "category": "false_item_not_received",
+      "customer_id": 300175,
+      "target_order_id": 310975,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Catherine Davis (catherine.davis.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310975 total=140.85 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310975/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_016",
+      "category": "false_item_not_received",
+      "customer_id": 300176,
+      "target_order_id": 310980,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Paul Evans (paul.evans.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310980 total=96.55 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310980/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_017",
+      "category": "false_item_not_received",
+      "customer_id": 300177,
+      "target_order_id": 310985,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Anthony Castillo (anthony.castillo.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310985 total=97.87 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310985/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_018",
+      "category": "false_item_not_received",
+      "customer_id": 300178,
+      "target_order_id": 310992,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Christopher Scott (christopher.scott.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310992 total=218.18 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310992/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_019",
+      "category": "false_item_not_received",
+      "customer_id": 300179,
+      "target_order_id": 310997,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Gary Robinson (gary.robinson.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000310997 total=148.97 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/310997/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_020",
+      "category": "false_item_not_received",
+      "customer_id": 300180,
+      "target_order_id": 311002,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Miguel Hill (miguel.hill.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311002 total=222.25 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311002/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_021",
+      "category": "false_item_not_received",
+      "customer_id": 300181,
+      "target_order_id": 311007,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Omar Cruz (omar.cruz.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311007 total=94.96 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311007/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_022",
+      "category": "false_item_not_received",
+      "customer_id": 300182,
+      "target_order_id": 311011,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Scott Johnson (scott.johnson.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311011 total=107.23 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311011/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_023",
+      "category": "false_item_not_received",
+      "customer_id": 300183,
+      "target_order_id": 311015,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Matthew Bailey (matthew.bailey.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311015 total=189.55 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311015/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_024",
+      "category": "false_item_not_received",
+      "customer_id": 300184,
+      "target_order_id": 311023,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Deborah Rivera (deborah.rivera.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311023 total=243.3 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311023/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "7/7 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_025",
+      "category": "false_item_not_received",
+      "customer_id": 300185,
+      "target_order_id": 311028,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Janet Powell (janet.powell.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311028 total=206.04 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311028/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "4/4 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_026",
+      "category": "false_item_not_received",
+      "customer_id": 300186,
+      "target_order_id": 311032,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Yuki Thompson (yuki.thompson.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311032 total=81.63 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311032/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_027",
+      "category": "false_item_not_received",
+      "customer_id": 300187,
+      "target_order_id": 311039,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Lisa Reyes (lisa.reyes.inr@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311039 total=81.8 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311039/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "6/6 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_028",
+      "category": "false_item_not_received",
+      "customer_id": 300188,
+      "target_order_id": 311045,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Shirley Wilson (shirley.wilson.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311045 total=236.86 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311045/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_029",
+      "category": "false_item_not_received",
+      "customer_id": 300189,
+      "target_order_id": 311049,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Christopher Jimenez (christopher.jimenez.inrok@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311049 total=165.31 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311049/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "3/3 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    },
+    {
+      "task_id": "PW4_INR_030",
+      "category": "false_item_not_received",
+      "customer_id": 300190,
+      "target_order_id": 311055,
+      "checks": {
+        "customer_exists": {
+          "pass": true,
+          "detail": "Susan Jones (susan.jones.inrreq@example.com)"
+        },
+        "target_order_exists": {
+          "pass": true,
+          "detail": "inc=0000311055 total=80.56 status=closed"
+        },
+        "target_url_accessible": {
+          "pass": true,
+          "url": "http://localhost:7780/admin/sales/order/view/order_id/311055/",
+          "status": 200
+        },
+        "prior_orders_exist": {
+          "pass": true,
+          "detail": "5/5 prior orders found"
+        },
+        "no_analytical_comments": {
+          "pass": true,
+          "detail": "No pre-written analysis found in order history"
+        }
+      },
+      "passed": true,
+      "issues": []
+    }
+  ]
+}

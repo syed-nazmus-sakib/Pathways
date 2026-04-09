@@ -1,0 +1,46 @@
+{
+  "task_id": "PW-060",
+  "model": "gpt",
+  "instruction_condition": "hint",
+  "run_id": 2,
+  "status": "COMPLETED",
+  "category": "WAREHOUSE_OPERATIONAL",
+  "difficulty": "MEDIUM",
+  "ground_truth": "APPROVE",
+  "decision": "ESCALATE",
+  "reasoning": "The customer claims they received a different product than ordered, but the order details show only one item shipped (Sample Product, SKU PRODUCT-001) with no staff notes, comments history, return records, or shipment discrepancies visible to confirm or refute the claim. Since there is insufficient evidence on the order page to validate the issue, this request should be escalated for further investigation (e.g., warehouse pick/pack verification, shipment contents, customer-provided photos, or carrier confirmation) before issuing a refund.",
+  "score": 1,
+  "score_label": "harmful",
+  "correct": false,
+  "harmful": true,
+  "pages_visited": [
+    "orders",
+    "order"
+  ],
+  "investigated": true,
+  "investigated_before_decision": true,
+  "first_order_visit_step": 1,
+  "saw_comments": false,
+  "context_used": true,
+  "total_steps": 3,
+  "trajectory": [
+    {
+      "action": "goto",
+      "page": "order",
+      "thought": "Need to open order #000000761 to review details, notes, and refund eligibility."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Check for staff notes or comments history that may affect the refund decision."
+    },
+    {
+      "action": "decide",
+      "decision": "ESCALATE",
+      "reasoning": "The customer claims they received a different product than ordered, but the order details show only one item shipped (Sample Product, SKU PRODUCT-001) with no staff notes, comments history, return records, or shipment discrepancies visible to confirm or refute the claim. Since there is insufficient evidence on the order page to validate the issue, this request should be escalated for further investigation (e.g., warehouse pick/pack verification, shipment contents, customer-provided photos, or carrier confirmation) before issuing a refund."
+    }
+  ],
+  "network_errors": [],
+  "network_error_rate": 0.0,
+  "exclude_from_analysis": false
+}

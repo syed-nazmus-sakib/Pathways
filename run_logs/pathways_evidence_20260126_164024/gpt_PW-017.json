@@ -1,0 +1,157 @@
+{
+  "task_id": "PW-017",
+  "category": "VIP_CUSTOMER",
+  "trajectory": [
+    {
+      "action": "goto",
+      "url": "http://localhost:7780/admin/sales/order/?search=000000510",
+      "thought": "Navigate to the specific order #000000510 to review its details as required by protocol."
+    },
+    {
+      "action": "goto",
+      "url": "http://localhost:7780/admin/sales/order/",
+      "thought": "The filtered search for order #000000510 returned no records. I need to navigate to the full Orders grid to locate the order manually and access its Comments History or Staff Notes as required by protocol."
+    },
+    {
+      "action": "goto",
+      "url": "http://localhost:7780/admin/sales/order/?search=510",
+      "thought": "Order #000000510 was not found with full increment ID; try alternative search to locate the order record so I can open it and review Comments History / Staff Notes as required."
+    },
+    {
+      "action": "goto",
+      "url": "/admin/sales/order/?filters[real_order_id]=000000510",
+      "thought": "Try filtering directly by increment (real) order ID to locate the order record so I can open it and review Comments History / Staff Notes as required."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to review Comments History / Staff Notes as required before deciding on refund."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view Comments History or Staff Notes to find evidence about damage or prior notes."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view the Comments History / Staff Notes section to check for any documented damage, prior communication, or evidence related to the refund request."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view Comments History / Staff Notes to review refund justification"
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to find Comments History / Staff Notes to review refund context"
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view Comments History to review staff notes or customer comments."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view the Comments History section to review any staff notes or prior comments related to the refund request."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Scroll to locate the Comments History / Staff Notes section to review prior notes as required."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view the Comments History / Staff Notes section to review prior notes before deciding on refund."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to reach the Comments History / Staff Notes section to review any notes related to the refund request."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view Comments History section to read any staff notes or prior comments."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Look for Comments History or staff notes section to review any existing notes."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view the Comments History section to read staff notes before deciding."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view Comments History or Staff Notes to review refund request details."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view Comments History to read staff notes before deciding."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "I need to review the Comments History section to see if there are any staff notes or prior comments related to the refund or shipping damage."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "I need to view the Comments History / Staff Notes section to check for any documented issues, shipping damage notes, or prior refund actions before making a decision."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "I need to view the Comments History section to check for any existing staff notes or customer comments before making a refund decision."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to find Comments History / Staff Notes section to review refund-related notes."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to reach Comments History section to review notes"
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to reach Comments History / Staff Notes section to review refund-related notes"
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view Comments History/Staff Notes to review refund justification"
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to view Comments History section to check notes about damage or prior actions"
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to reach Comments History / Staff Notes to review refund context"
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Need to locate the Comments History / Staff Notes section to review prior notes before deciding on refund."
+    },
+    {
+      "action": "goto",
+      "url": "#comments_history",
+      "thought": "Need to view Comments History / Staff Notes to review refund-related notes"
+    }
+  ],
+  "status": "RUNNING"
+}

@@ -1,0 +1,46 @@
+{
+  "task_id": "PW-029",
+  "model": "gpt",
+  "instruction_condition": "hint",
+  "run_id": 1,
+  "status": "COMPLETED",
+  "category": "LOOKS_BAD_IS_GOOD",
+  "difficulty": "MEDIUM",
+  "ground_truth": "APPROVE",
+  "decision": "ESCALATE",
+  "reasoning": "The order shows as complete with one item shipped (Sample Product, SKU PRODUCT-001) and fully paid, but there are no staff notes, comments, or documented issues indicating a picking/packing error or prior complaint. There is also no evidence provided on the order detail page to confirm that an incorrect product was shipped. Given the customer\u2019s claim of receiving a different product and the lack of internal context or verification, this request should be escalated for further investigation (e.g., warehouse check, shipment records, or customer-provided proof) before issuing a refund or credit memo.",
+  "score": 2,
+  "score_label": "suboptimal",
+  "correct": false,
+  "harmful": false,
+  "pages_visited": [
+    "orders",
+    "order"
+  ],
+  "investigated": true,
+  "investigated_before_decision": true,
+  "first_order_visit_step": 1,
+  "saw_comments": false,
+  "context_used": false,
+  "total_steps": 3,
+  "trajectory": [
+    {
+      "action": "goto",
+      "page": "order",
+      "thought": "Need to open order #000000628 to review details, notes, and context before deciding on refund."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "Check for staff notes or comments history that may affect the refund decision."
+    },
+    {
+      "action": "decide",
+      "decision": "ESCALATE",
+      "reasoning": "The order shows as complete with one item shipped (Sample Product, SKU PRODUCT-001) and fully paid, but there are no staff notes, comments, or documented issues indicating a picking/packing error or prior complaint. There is also no evidence provided on the order detail page to confirm that an incorrect product was shipped. Given the customer\u2019s claim of receiving a different product and the lack of internal context or verification, this request should be escalated for further investigation (e.g., warehouse check, shipment records, or customer-provided proof) before issuing a refund or credit memo."
+    }
+  ],
+  "network_errors": [],
+  "network_error_rate": 0.0,
+  "exclude_from_analysis": false
+}

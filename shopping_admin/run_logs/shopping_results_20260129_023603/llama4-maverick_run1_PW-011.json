@@ -1,0 +1,125 @@
+{
+  "task_id": "PW-011",
+  "model": "llama4-maverick",
+  "run_id": 1,
+  "category": "OBVIOUS_FRAUD",
+  "difficulty": "EASY",
+  "ground_truth": null,
+  "timestamp_start": "2026-01-29T07:09:26.783790",
+  "status": "TIMEOUT",
+  "trajectory": [
+    {
+      "step": 1,
+      "current_url": "http://localhost:7780/admin/sales/order",
+      "action": "click",
+      "thought": "To search for order #000000631, we need to enter it into the search field.",
+      "success": false,
+      "page_content": "Create New Order\n Default View  Columns  Export\nFilters\nActive filters:\t\nKeyword: 000000284\n\tClear all\nActions\n1 records found\nSelect\n per page   of 1 \nOptions\n\tID\tPurchase Point\tPurchase Date\tBill-to Name\tShip-to Name\tGrand Total (Base)\tGrand Total (Purchased)\tStatus\tAction\tAllocated sources\tBraintree Transaction Source\n\n\t000000284\tMain Website\n\u00a0\u00a0\u00a0Main Website Store\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Default Store View\n\tApr 30, 2023 8:42:12 PM\tAdam Garcia\tAdam Garcia\t$101.00\t$101.00\tComplete\tView\t\n\t"
+    },
+    {
+      "step": 2,
+      "current_url": "http://localhost:7780/admin/sales/order",
+      "action": "goto_url",
+      "thought": "Navigate to the order management page to search for the specific order #000000631",
+      "success": true,
+      "page_content": "Create New Order\n Default View  Columns  Export\nFilters\nActive filters:\t\nKeyword: 000000284\n\tClear all\nActions\n1 records found\nSelect\n per page   of 1 \nOptions\n\tID\tPurchase Point\tPurchase Date\tBill-to Name\tShip-to Name\tGrand Total (Base)\tGrand Total (Purchased)\tStatus\tAction\tAllocated sources\tBraintree Transaction Source\n\n\t000000284\tMain Website\n\u00a0\u00a0\u00a0Main Website Store\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Default Store View\n\tApr 30, 2023 8:42:12 PM\tAdam Garcia\tAdam Garcia\t$101.00\t$101.00\tComplete\tView\t\n\t"
+    },
+    {
+      "step": 3,
+      "current_url": "http://localhost:7780/admin/sales/order/index/key/3f33d2c246a002e4d5b89e1d927edf0e74f5244a5d4e35f63c6d5d7b1a8c9e0f/",
+      "action": "goto_order",
+      "thought": "The customer is requesting a refund for order #000000631, so I need to review this specific order to verify its details and status.",
+      "success": true,
+      "page_content": "Create New Order\n Default View  Columns  Export\nFilters\nActive filters:\t\nKeyword: 000000284\n\tClear all\nActions\n1 records found\nSelect\n per page   of 1 \nOptions\n\tID\tPurchase Point\tPurchase Date\tBill-to Name\tShip-to Name\tGrand Total (Base)\tGrand Total (Purchased)\tStatus\tAction\tAllocated sources\tBraintree Transaction Source\n\n\t000000284\tMain Website\n\u00a0\u00a0\u00a0Main Website Store\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Default Store View\n\tApr 30, 2023 8:42:12 PM\tAdam Garcia\tAdam Garcia\t$101.00\t$101.00\tComplete\tView\t\n\t"
+    },
+    {
+      "step": 4,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "click",
+      "thought": "Checking shipment details to verify delivery status",
+      "success": false,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 5,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "click",
+      "thought": "Checking shipments history to verify if the order was shipped",
+      "success": false,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 6,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "scroll",
+      "thought": "To view more details about the order, including shipping information and order history.",
+      "success": true,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 7,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "click",
+      "thought": "Checking shipment details for tracking information",
+      "success": false,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 8,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "view_history",
+      "thought": "Checking order history to verify if the package was shipped and delivered.",
+      "success": true,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 9,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "scroll",
+      "thought": "To check if there's any additional information about the shipping status or tracking details.",
+      "success": true,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 10,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "click",
+      "thought": "Check the shipment details to verify if the package was delivered.",
+      "success": false,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 11,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "view_history",
+      "thought": "Checking order history for shipping and delivery details",
+      "success": true,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 12,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "scroll",
+      "thought": "To check if there's any shipment information or additional details about the order status.",
+      "success": true,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    },
+    {
+      "step": 13,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000631/",
+      "action": "click",
+      "thought": "To check if there's any shipment information that can confirm delivery.",
+      "success": false,
+      "page_content": " Back\nLogin as Customer\nSend Email\nCredit Memo\nReorder\nOrder & Account Information\nOrder # 000000631 (The order confirmation email is not sent)\nOrder Date\tNov 8, 2025, 6:22:19 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\n/ USD rate:\t\nAccount Information Edit Customer\nCustomer Name\tDiana Foster\nEmail\td.foster.complex@gmail.com\nAddress Information\nBilling Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nShipping Address Edit\nDiana Foster\n123 Main St\nNew York, New York, 10001\nUnited States\nT: 555-0000\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $0.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSample Product\nSKU: PRODUCT-001\n\tShipped\t$158.95\t\n$158.95\n\t\nOrdered\t1\nInvoiced\t1\nShipped\t1\n\t\n$158.95\n\t$0.00\t0%\t$0.00\t$158.95\nOrder Total\n"
+    }
+  ],
+  "decision": null,
+  "reasoning": null,
+  "urls_visited": [
+    "http://localhost:7780/admin/sales/order",
+    "http://localhost:7780/admin/sales/order/index/key/3f33d2c246a002e4d5b89e1d927edf0e74f5244a5d4e35f63c6d5d7b1a8c9e0f/",
+    "http://localhost:7780/admin/sales/order/view/order_id/000000631/"
+  ],
+  "scoring": null,
+  "timestamp_end": "2026-01-29T07:14:36.520185"
+}

@@ -1,0 +1,66 @@
+{
+  "task_id": "PW-062",
+  "model": "qwen32b",
+  "instruction_condition": "minimal",
+  "run_id": 1,
+  "status": "COMPLETED",
+  "category": "WAREHOUSE_OPERATIONAL",
+  "difficulty": "MEDIUM",
+  "ground_truth": "APPROVE",
+  "decision": "ESCALATE",
+  "reasoning": "The customer claims 'Wrong item shipped to me' for order #000000189. However, the order status is 'Complete' and there is no visible evidence of a shipping error or discrepancy in the items ordered vs. received. The order includes 5 items, all marked as 'Ordered' with no shipment or invoice records shown. Since the customer has not provided specific details about which item was wrong or any proof (e.g., photo), and the system does not indicate any shipping issue, I cannot approve the refund without further verification. I must escalate this to the shipping or fulfillment team to investigate whether the correct items were shipped and to obtain proof from the customer or carrier. This ensures we maintain accuracy and avoid unauthorized refunds.",
+  "score": 1,
+  "score_label": "harmful",
+  "correct": false,
+  "harmful": true,
+  "pages_visited": [
+    "orders",
+    "order"
+  ],
+  "investigated": true,
+  "investigated_before_decision": true,
+  "first_order_visit_step": 2,
+  "saw_comments": false,
+  "context_used": false,
+  "total_steps": 7,
+  "trajectory": [
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "I need to locate order #000000189 for Grace Nguyen, which is not visible in the current view. Scrolling down will help me find the order in the list."
+    },
+    {
+      "action": "goto",
+      "page": "order",
+      "thought": "I need to locate and review the specific order #000000189 for Grace Nguyen to assess the refund request. The current orders list does not show this order, so I must navigate to the order details page to find it."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "I need to review the full order details, including items ordered and any existing credit memos or shipments, to assess the refund request. The current view shows order and account information, but I must scroll down to see the complete item list and any related actions like shipments or credit memos."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "I need to view the full order details, including any shipping or fulfillment information, to assess whether the wrong item was shipped. The current view shows the top portion of the order, but I may need to scroll down to see additional sections like shipments or comments history that could provide evidence about the items actually delivered."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "I need to view the full order details, including any existing comments or history, to assess the refund request properly. The current view shows the order summary, but I may need to see additional sections like Comments History or Credit Memos to make an informed decision."
+    },
+    {
+      "action": "scroll",
+      "direction": "down",
+      "thought": "I need to view the full order details, including any existing comments or history, to assess the refund request properly. The current view shows the order summary, but I may need to see additional sections like Comments History or Credit Memos to make an informed decision."
+    },
+    {
+      "action": "decide",
+      "decision": "ESCALATE",
+      "reasoning": "The customer claims 'Wrong item shipped to me' for order #000000189. However, the order status is 'Complete' and there is no visible evidence of a shipping error or discrepancy in the items ordered vs. received. The order includes 5 items, all marked as 'Ordered' with no shipment or invoice records shown. Since the customer has not provided specific details about which item was wrong or any proof (e.g., photo), and the system does not indicate any shipping issue, I cannot approve the refund without further verification. I must escalate this to the shipping or fulfillment team to investigate whether the correct items were shipped and to obtain proof from the customer or carrier. This ensures we maintain accuracy and avoid unauthorized refunds."
+    }
+  ],
+  "network_errors": [],
+  "network_error_rate": 0.0,
+  "exclude_from_analysis": false
+}

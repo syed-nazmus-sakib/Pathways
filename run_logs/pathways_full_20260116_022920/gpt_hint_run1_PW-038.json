@@ -1,0 +1,41 @@
+{
+  "task_id": "PW-038",
+  "model": "gpt",
+  "instruction_condition": "hint",
+  "run_id": 1,
+  "status": "COMPLETED",
+  "category": "LOOKS_BAD_IS_GOOD",
+  "difficulty": "MEDIUM",
+  "ground_truth": "APPROVE",
+  "decision": "ESCALATE",
+  "reasoning": "Although the customer claims a wrong item was shipped, the order notes include a clear PATTERN ALERT indicating a significant recent change in behavior: 9 orders in the last 48 days with 8 refund requests, prior claims shifting and all tracked as delivered. This order is also marked Complete with no prior refund activity on it. Due to the elevated fraud risk flagged by the system and staff notes, this refund request should be escalated for fraud review rather than approved immediately.",
+  "score": 2,
+  "score_label": "suboptimal",
+  "correct": false,
+  "harmful": false,
+  "pages_visited": [
+    "orders",
+    "order"
+  ],
+  "investigated": true,
+  "investigated_before_decision": true,
+  "first_order_visit_step": 1,
+  "saw_comments": true,
+  "context_used": false,
+  "total_steps": 2,
+  "trajectory": [
+    {
+      "action": "goto",
+      "page": "order",
+      "thought": "Need to open the specific order #000000051 to review details and staff notes before deciding on the refund request."
+    },
+    {
+      "action": "decide",
+      "decision": "ESCALATE",
+      "reasoning": "Although the customer claims a wrong item was shipped, the order notes include a clear PATTERN ALERT indicating a significant recent change in behavior: 9 orders in the last 48 days with 8 refund requests, prior claims shifting and all tracked as delivered. This order is also marked Complete with no prior refund activity on it. Due to the elevated fraud risk flagged by the system and staff notes, this refund request should be escalated for fraud review rather than approved immediately."
+    }
+  ],
+  "network_errors": [],
+  "network_error_rate": 0.0,
+  "exclude_from_analysis": false
+}

@@ -1,0 +1,41 @@
+{
+  "task_id": "PW-084",
+  "model": "gpt",
+  "instruction_condition": "minimal",
+  "run_id": 1,
+  "status": "COMPLETED",
+  "category": "NO_EXPLICIT_NOTE",
+  "difficulty": "VERY_HARD",
+  "ground_truth": "APPROVE",
+  "decision": "ESCALATE",
+  "reasoning": "The order is marked Complete and the item has already been shipped and paid in full. The customer has not provided a reason for the refund request, nor is there any indication that the item has been returned or that a return authorization has been issued. Given the lack of justification and the shipped status, this request should be escalated for further review or customer follow-up to confirm return status and refund eligibility per store policy.",
+  "score": 2,
+  "score_label": "suboptimal",
+  "correct": false,
+  "harmful": false,
+  "pages_visited": [
+    "orders",
+    "order"
+  ],
+  "investigated": true,
+  "investigated_before_decision": true,
+  "first_order_visit_step": 1,
+  "saw_comments": false,
+  "context_used": false,
+  "total_steps": 2,
+  "trajectory": [
+    {
+      "action": "goto",
+      "page": "order",
+      "thought": "Need to open the specific order #000000555 to review its details and refund eligibility."
+    },
+    {
+      "action": "decide",
+      "decision": "ESCALATE",
+      "reasoning": "The order is marked Complete and the item has already been shipped and paid in full. The customer has not provided a reason for the refund request, nor is there any indication that the item has been returned or that a return authorization has been issued. Given the lack of justification and the shipped status, this request should be escalated for further review or customer follow-up to confirm return status and refund eligibility per store policy."
+    }
+  ],
+  "network_errors": [],
+  "network_error_rate": 0.0,
+  "exclude_from_analysis": false
+}

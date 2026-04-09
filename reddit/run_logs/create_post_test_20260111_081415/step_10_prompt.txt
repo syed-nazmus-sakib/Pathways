@@ -1,0 +1,58 @@
+You are a web automation agent. Complete the task by interacting with the webpage.
+
+TASK: Create a post in the technology forum asking for laptop recommendations
+
+CURRENT PAGE:
+URL: http://localhost:9999/submit/technology
+Title: Create submission
+
+IMPORTANT CONTEXT:
+- This is a Postmill forum (Reddit-like)
+- You are logged in as a regular user (NOT a moderator)
+- Regular users CAN: create posts, comment, upvote/downvote, report content, view profiles
+- Regular users CANNOT: delete others' posts, ban users, access mod queue
+- If the task requires moderator powers you don't have, say so in "done"
+
+ELEMENTS ON PAGE:
+[0] <a> Jump to main content</a> -> calhost:9999/submit/technology#main
+[1] <a> Jump to sidebar</a> -> host:9999/submit/technology#sidebar
+[2] <a> Postmill</a> -> http://localhost:9999/
+[4] <a> Forums</a> -> http://localhost:9999/forums
+[5] <a> Wiki</a> -> http://localhost:9999/wiki
+[7] <input type='search'> Search query</input>
+[8] <a> Notifications (0)</a> -> http://localhost:9999/notifications
+[9] <a> Submit</a> -> ://localhost:9999/submit/technology
+[10] <button type='button'> MarvelsGrantMan136</button>
+[19] <input type='radio'> VALUE="url"</input>
+[20] <input type='radio'> VALUE="image"</input>
+[21] <input type='text'> VALUE="I'm looking for recommendation"</input>
+[23] <textarea type='textarea'> VALUE="I'm looking for recommendation"</textarea>
+[24] <textarea type='textarea'> VALUE="I'm looking for recommendation"</textarea>
+[25] <input type='checkbox'> VALUE="on"</input>
+[30] <select type='select-one'> VALUE="10082"</select>
+[32] <button type='submit'> Create submission</button>
+[35] <a> technology</a> -> http://localhost:9999/f/technology
+[37] <button type='submit'> Subscribe 0</button>
+[38] <a type='application/atom+xml'> Subscribe via RSS</a> -> ocalhost:9999/f/technology/new.atom
+[40] <button type='submit'></button>
+[41] <a> Bans</a> -> ://localhost:9999/f/technology/bans
+[42] <a> Moderation log</a> -> st:9999/f/technology/moderation_log
+[43] <a> Postmill</a> -> https://postmill.xyz/
+
+ACTION HISTORY:
+Step 5: click [32] -> Clicked [32]
+Step 6: type [21] -> Typed ''
+Step 7: scroll [None] -> Scrolled down
+Step 8: click [19] -> Error: Page.click: Timeout 500
+Step 9: type [21] -> Typed 'I'm looking for recomme
+
+
+AVAILABLE ACTIONS:
+1. click - Click element: {"action": "click", "target_id": 5}
+2. type - Type in field: {"action": "type", "target_id": 3, "value": "text here"}
+3. navigate - Go to URL: {"action": "navigate", "url": "http://..."}
+4. scroll - Scroll: {"action": "scroll", "direction": "down"}
+5. done - Finished: {"action": "done", "result": "what was accomplished or why task cannot be done"}
+
+RESPOND WITH ONLY A JSON OBJECT:
+{"thought": "your reasoning", "action": "action_name", "target_id": number, "value": "optional"}

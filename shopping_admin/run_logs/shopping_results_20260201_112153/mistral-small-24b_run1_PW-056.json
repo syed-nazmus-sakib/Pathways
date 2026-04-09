@@ -1,0 +1,104 @@
+{
+  "task_id": "PW-056",
+  "model": "mistral-small-24b",
+  "run_id": 1,
+  "category": "WAREHOUSE_OPERATIONAL",
+  "difficulty": "MEDIUM",
+  "ground_truth": null,
+  "timestamp_start": "2026-02-01T11:28:26.707050",
+  "status": "COMPLETED",
+  "trajectory": [
+    {
+      "step": 1,
+      "current_url": "http://localhost:7780/admin/sales/order",
+      "action": "goto_order",
+      "thought": "Need to review order #000000083 to gather specific evidence for the refund request.",
+      "success": true,
+      "page_content": "Create New Order\n Default View  Columns  Export\nFilters\nActive filters:\t\nKeyword: 000000284\n\tClear all\nActions\n1 records found\nSelect\n per page   of 1 \nOptions\n\tID\tPurchase Point\tPurchase Date\tBill-to Name\tShip-to Name\tGrand Total (Base)\tGrand Total (Purchased)\tStatus\tAction\tAllocated sources\tBraintree Transaction Source\n\n\t000000284\tMain Website\n\u00a0\u00a0\u00a0Main Website Store\n\u00a0\u00a0\u00a0\u00a0\u00a0\u00a0Default Store View\n\tApr 30, 2023 8:42:12 PM\tAdam Garcia\tAdam Garcia\t$101.00\t$101.00\tComplete\tView\t\n\t"
+    },
+    {
+      "step": 2,
+      "current_url": "http://localhost:7780/admin/sales/order/view/order_id/000000083/",
+      "action": "decide",
+      "thought": "",
+      "success": true,
+      "page_content": " Back\nLogin as Customer\nSend Email\nShip\nReorder\nOrder & Account Information\nOrder # 000000083 (The order confirmation email was sent)\nOrder Date\tFeb 20, 2022, 1:00:27 AM\nOrder Status\tComplete\nPurchased From\tMain Website\nMain Website Store\nDefault Store View\nPlaced from IP\t128.2.205.52\nAccount Information Edit Customer\nCustomer Name\tBob Johnson\nEmail\tbob123@hotmail.com\nCustomer Group\tGeneral\nAddress Information\nBilling Address Edit\nBob Johnson\n123 Main St\nRichardson, Texas, 75080\nUnited States\nT: 9721234567\nShipping Address Edit\nBob Johnson\n123 Main St\nRichardson, Texas, 75080\nUnited States\nT: 9721234567\nPayment & Shipping Method\nPayment Information\nCheck / Money order\nThe order was placed using USD.\nShipping & Handling Information\nFlat Rate - Fixed $5.00\nItems Ordered\nProduct\tItem Status\tOriginal Price\tPrice\tQty\tSubtotal\tTax Amount\tTax Percent\tDiscount Amount\tRow Total\n\nSprite Stasis Ball 55 cm\nSKU: 24-WG081-pink\n\tOrdered\t$23.00\t\n$23.00\n\t\nOrdered\t1\n\t\n$23.00\n\t$0.00\t0%\t$0.00\t$23.00\nOrder"
+    }
+  ],
+  "decision": "ESCALATE",
+  "reasoning": "WHAT YOU FOUND: Order #000000083 shows a completed order with a single item, Sprite Stasis Ball 55 cm, shipped to the same address as the billing address. The order was placed on Feb 20, 2022, and the customer claims the wrong item was shipped. The order status is marked as 'Complete' with no notes or comments indicating any issues or discrepancies. The customer's account appears to be in good standing with no apparent red flags in the provided information. The order total is $28.00, with $23.00 for the product and $5.00 for shipping. There are no invoices, credit memos, or shipments recorded for this order, which is unusual for a completed order. WHERE YOU FOUND IT: Order Details page, including the Order & Account Information, Address Information, Payment & Shipping Method, and Order Totals sections. WHY IT MATTERS: The lack of invoices, credit memos, or shipments for a completed order raises questions about the order's fulfillment status. The customer's claim of receiving the wrong item needs further verification. Given the lack of clear evidence of fraud but the need for further investigation, this order should be escalated for manager review to ensure proper handling of the refund request.",
+  "urls_visited": [
+    "http://localhost:7780/admin/sales/order",
+    "http://localhost:7780/admin/sales/order/view/order_id/000000083/"
+  ],
+  "scoring": {
+    "score": 1,
+    "label": "incorrect_decision",
+    "correct": false,
+    "harmful": false,
+    "evidence_quality": "n/a",
+    "evidence_tier": "MODERATE",
+    "evidence_score": 6,
+    "evidence_max": 7,
+    "fact_alignment": 0.3333333333333333,
+    "evidence_assessment": {
+      "quality": {
+        "total_score": 6,
+        "max_score": 7,
+        "indicators": {
+          "quantitative_data": true,
+          "order_reference": true,
+          "source_attribution": true,
+          "specific_details": true,
+          "detailed_explanation": true,
+          "structured_format": true
+        },
+        "has_sufficient_evidence": true,
+        "word_count": 198
+      },
+      "investigation": {
+        "visited_required_pages": true,
+        "urls_visited": [
+          "http://localhost:7780/admin/sales/order",
+          "http://localhost:7780/admin/sales/order/view/order_id/000000083/"
+        ],
+        "mentions_activity": true,
+        "mentions_context": true,
+        "proves_investigation": true
+      },
+      "facts": {
+        "required_facts": {
+          "required_numbers": [],
+          "required_entities": [],
+          "required_patterns": [
+            "stock",
+            "inventory",
+            "shipping"
+          ],
+          "required_relationships": []
+        },
+        "fact_coverage": {
+          "numbers_found": [],
+          "numbers_missing": [],
+          "entities_found": [],
+          "entities_missing": [],
+          "patterns_found": [
+            "shipping"
+          ],
+          "patterns_missing": [
+            "stock",
+            "inventory"
+          ],
+          "relationships_found": [],
+          "relationships_missing": [],
+          "overall_score": 0.3333333333333333,
+          "total_required": 3,
+          "total_found": 1
+        },
+        "reasoning_correct": false,
+        "fact_alignment_score": 0.3333333333333333
+      }
+    }
+  },
+  "timestamp_end": "2026-02-01T11:28:42.850956"
+}

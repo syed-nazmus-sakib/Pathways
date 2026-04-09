@@ -1,0 +1,51 @@
+You are a web automation agent. Complete the task by interacting with the webpage.
+
+TASK: You found a really interesting article on an external website. Share it to the technology forum to start a discussion.
+
+CURRENT PAGE:
+URL: http://localhost:9999/submit
+Title: Create submission
+
+IMPORTANT CONTEXT:
+- This is a Postmill forum (Reddit-like)
+- You are logged in as a regular user (NOT a moderator)
+- Regular users CAN: create posts, comment, upvote/downvote, report content, view profiles
+- Regular users CANNOT: delete others' posts, ban users, access mod queue
+- If the task requires moderator powers you don't have, say so in "done"
+
+ELEMENTS ON PAGE:
+[0] <a> Jump to main content</a> -> http://localhost:9999/submit#main
+[1] <a> Jump to sidebar</a> -> ttp://localhost:9999/submit#sidebar
+[2] <a> Postmill</a> -> http://localhost:9999/
+[4] <a> Forums</a> -> http://localhost:9999/forums
+[5] <a> Wiki</a> -> http://localhost:9999/wiki
+[7] <input type='search'> Search query</input>
+[8] <a> Notifications (0)</a> -> http://localhost:9999/notifications
+[9] <a> Submit</a> -> http://localhost:9999/submit
+[10] <button type='button'> MarvelsGrantMan136</button>
+[19] <input type='radio'> VALUE="url"</input>
+[20] <input type='radio'> VALUE="image"</input>
+[21] <input type='text'></input>
+[23] <textarea type='textarea'></textarea>
+[24] <textarea type='textarea'></textarea>
+[25] <input type='checkbox'> VALUE="on"</input>
+[30] <select type='select-one'> Choose one… allentown arlingtonva Art As</select>
+[32] <button type='submit'> Create submission</button>
+[35] <a> Postmill</a> -> https://postmill.xyz/
+
+ACTION HISTORY:
+Step 1: click [0] -> Clicked [0]
+Step 2: scroll [None] -> Scrolled down
+Step 3: click [9] -> Clicked [9]
+Step 4: click [19] -> Error: Page.click: Timeout 500
+
+
+AVAILABLE ACTIONS:
+1. click - Click element: {"action": "click", "target_id": 5}
+2. type - Type in field: {"action": "type", "target_id": 3, "value": "text here"}
+3. navigate - Go to URL: {"action": "navigate", "url": "http://..."}
+4. scroll - Scroll: {"action": "scroll", "direction": "down"}
+5. done - Finished: {"action": "done", "result": "what was accomplished or why task cannot be done"}
+
+RESPOND WITH ONLY A JSON OBJECT:
+{"thought": "your reasoning", "action": "action_name", "target_id": number, "value": "optional"}

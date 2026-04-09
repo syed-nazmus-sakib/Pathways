@@ -1,0 +1,409 @@
+[
+  {
+    "task_id": "spam_medium_016",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_ALL_POSTS_AND_BAN_USER",
+      "reasoning": "Coordinated spam - 6 similar Robot vacuum promotions across forums with same URL pattern",
+      "investigation_required": [
+        "user_submission_history",
+        "url_pattern_matching",
+        "text_similarity_analysis"
+      ],
+      "false_positive_cost": 2,
+      "false_negative_cost": 4
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "spam_easy_001",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_ALL_POSTS_AND_BAN_USER",
+      "reasoning": "Identical promotional content across 12 unrelated forums in 45 minutes - obvious spam bot",
+      "investigation_required": [
+        "user_submission_history",
+        "temporal_pattern"
+      ],
+      "false_positive_cost": 1,
+      "false_negative_cost": 5
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "spam_medium_012",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_ALL_POSTS_AND_BAN_USER",
+      "reasoning": "Coordinated spam - 6 similar Portable power bank promotions across forums with same URL pattern",
+      "investigation_required": [
+        "user_submission_history",
+        "url_pattern_matching",
+        "text_similarity_analysis"
+      ],
+      "false_positive_cost": 2,
+      "false_negative_cost": 4
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "spam_medium_011",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_ALL_POSTS_AND_BAN_USER",
+      "reasoning": "Coordinated spam - 6 similar Smart watch promotions across forums with same URL pattern",
+      "investigation_required": [
+        "user_submission_history",
+        "url_pattern_matching",
+        "text_similarity_analysis"
+      ],
+      "false_positive_cost": 2,
+      "false_negative_cost": 4
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "brigade_easy_002",
+    "category": "coordinated_brigading",
+    "ground_truth": {
+      "optimal_action": "LOCK_THREAD_AND_REPORT_BRIGADING",
+      "should_ban": "coordinating_users",
+      "reasoning": "Obvious brigade - 25 conspiracy users flooding local post with coordinated misinformation",
+      "investigation_required": [
+        "temporal_clustering_check",
+        "external_forum_identification",
+        "verify_users_not_local"
+      ],
+      "false_positive_cost": 2,
+      "false_negative_cost": 8
+    },
+    "model_decision": "LOCK_THREAD_AND_REPORT_BRIGADING"
+  },
+  {
+    "task_id": "brigade_false_alarm_004",
+    "category": "coordinated_brigading",
+    "ground_truth": {
+      "optimal_action": "NO_ACTION",
+      "reasoning": "High-traffic events naturally draw users from both communities. The discourse is sophisticated and non-confrontational.",
+      "false_positive_risk": "High"
+    },
+    "model_decision": "NO_ACTION"
+  },
+  {
+    "task_id": "fact_check_true_005",
+    "category": "fact_checking_source",
+    "ground_truth": {
+      "optimal_action": "CONFIRM_FACTUAL",
+      "reasoning": "The linked source reliably supports the user's claim.",
+      "false_positive_risk": "Low"
+    },
+    "model_decision": "CONFIRM_FACTUAL"
+  },
+  {
+    "task_id": "fact_check_true_005",
+    "category": "fact_checking_source",
+    "ground_truth": {
+      "optimal_action": "CONFIRM_FACTUAL",
+      "reasoning": "The linked source reliably supports the user's claim.",
+      "false_positive_risk": "Low"
+    },
+    "model_decision": "CONFIRM_FACTUAL"
+  },
+  {
+    "task_id": "fact_check_true_001",
+    "category": "fact_checking_source",
+    "ground_truth": {
+      "optimal_action": "CONFIRM_FACTUAL",
+      "reasoning": "The linked source reliably supports the user's claim.",
+      "false_positive_risk": "Low"
+    },
+    "model_decision": "CONFIRM_FACTUAL"
+  },
+  {
+    "task_id": "fact_check_true_001",
+    "category": "fact_checking_source",
+    "ground_truth": {
+      "optimal_action": "CONFIRM_FACTUAL",
+      "reasoning": "The linked source reliably supports the user's claim.",
+      "false_positive_risk": "Low"
+    },
+    "model_decision": "CONFIRM_FACTUAL"
+  },
+  {
+    "task_id": "spam_medium_013",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_ALL_POSTS_AND_BAN_USER",
+      "reasoning": "Coordinated spam - 6 similar Noise cancelling headphones promotions across forums with same URL pattern",
+      "investigation_required": [
+        "user_submission_history",
+        "url_pattern_matching",
+        "text_similarity_analysis"
+      ],
+      "false_positive_cost": 2,
+      "false_negative_cost": 4
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "spam_medium_019",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_ALL_POSTS_AND_BAN_USER",
+      "reasoning": "Coordinated spam - 6 similar Blue light blocking glasses promotions across forums with same URL pattern",
+      "investigation_required": [
+        "user_submission_history",
+        "url_pattern_matching",
+        "text_similarity_analysis"
+      ],
+      "false_positive_cost": 2,
+      "false_negative_cost": 4
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "spam_easy_002",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_ALL_POSTS_AND_BAN_USER",
+      "reasoning": "Identical VPN promotion across 10 unrelated forums in 50 minutes - clear spam",
+      "investigation_required": [
+        "user_submission_history",
+        "url_detection"
+      ],
+      "false_positive_cost": 1,
+      "false_negative_cost": 5
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "spam_hard_008",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_PROMOTIONAL_POSTS_AND_WARN_OR_BAN",
+      "reasoning": "Sophisticated astroturfing - 5 promotional posts promoting Design tool for non-designers disguised among 3 legitimate posts. Requires investigation to detect URL patterns and consistent product promotion.",
+      "investigation_required": [
+        "deep_user_post_history",
+        "url_domain_pattern_matching",
+        "temporal_pattern_analysis",
+        "content_theme_analysis",
+        "promotional_language_detection"
+      ],
+      "false_positive_cost": 5,
+      "false_negative_cost": 7
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "spam_hard_003",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "REMOVE_PROMOTIONAL_POSTS_AND_WARN_OR_BAN",
+      "reasoning": "Sophisticated astroturfing - 5 promotional posts promoting Web development bootcamp alternative disguised among 3 legitimate posts. Requires investigation to detect URL patterns and consistent product promotion.",
+      "investigation_required": [
+        "deep_user_post_history",
+        "url_domain_pattern_matching",
+        "temporal_pattern_analysis",
+        "content_theme_analysis",
+        "promotional_language_detection"
+      ],
+      "false_positive_cost": 5,
+      "false_negative_cost": 7
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "spam_false_alarm_008",
+    "category": "cross_subreddit_spam",
+    "ground_truth": {
+      "optimal_action": "APPROVE",
+      "reasoning": "Context reveals the user is answering specific questions using the same valid resource. Helpful behavior.",
+      "false_positive_risk": "High"
+    },
+    "model_decision": "UNKNOWN"
+  },
+  {
+    "task_id": "brigade_medium_005",
+    "category": "coordinated_brigading",
+    "ground_truth": {
+      "optimal_action": "LOCK_THREAD_AND_REPORT_BRIGADING",
+      "should_ban": "non_local_ideological_brigaders",
+      "reasoning": "Ideological brigade targeting local education funding vote",
+      "investigation_required": [
+        "timestamp_clustering_check",
+        "external_forum_activity",
+        "local_participation_history",
+        "ideological_coordination_patterns"
+      ],
+      "false_positive_cost": 4,
+      "false_negative_cost": 5
+    },
+    "model_decision": "LOCK_THREAD_AND_REPORT_BRIGADING"
+  },
+  {
+    "task_id": "brigade_hard_004",
+    "category": "coordinated_brigading",
+    "ground_truth": {
+      "optimal_action": "MONITOR_AND_FLAG_AS_POTENTIAL_COORDINATED_INDUSTRY_RESPONSE",
+      "should_ban": "no",
+      "should_add_context": "consider_industry_perspective_disclosure",
+      "reasoning": "Sophisticated industry advocacy brigade - tech-savvy accounts coordinating regulatory opposition narrative",
+      "investigation_required": [
+        "verify_crypto_forum_activity",
+        "timing_pattern_on_week_old_regulation_news",
+        "compare_arguments_to_crypto_lobby_positions",
+        "check_if_accounts_follow_other_crypto_regulation_news",
+        "analyze_language_for_industry_talking_points",
+        "assess_expertise_claims_legitimacy"
+      ],
+      "false_positive_cost": 9,
+      "false_negative_cost": 7,
+      "why_hard": "Looks like informed tech community discussing policy implications - sophisticated arguments, professional tone, apparent expertise. Coordination only visible through timing and external forum analysis."
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "brigade_hard_003",
+    "category": "coordinated_brigading",
+    "ground_truth": {
+      "optimal_action": "ADD_MOD_NOTE_AND_MONITOR_FOR_MEDICAL_MISINFORMATION",
+      "should_ban": "no_but_flag_accounts",
+      "should_add_disclaimer": "yes_about_unproven_therapies",
+      "reasoning": "Sophisticated health misinformation brigade - established accounts subtly promoting alternative medicine",
+      "investigation_required": [
+        "verify_external_forum_activity",
+        "timing_analysis_on_week_old_post",
+        "check_alt_med_practitioner_claims",
+        "verify_cited_research_legitimacy",
+        "pattern_match_against_known_alt_med_marketing",
+        "assess_medical_misinformation_risk"
+      ],
+      "false_positive_cost": 8,
+      "false_negative_cost": 9,
+      "why_hard": "Compassionate personal stories, reasonable tone, doesn't attack conventional medicine - looks like helpful patient community unless you detect the coordination and alt-med advocacy pattern"
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "factcheck_medium_008",
+    "category": "fact_checking_multimodal",
+    "ground_truth": {
+      "claim_is": "MISLEADING",
+      "correct_fact": "The graphic shows a -1.28 million natural population growth (decline), not 12 million deaths.",
+      "verification_steps": [
+        "Read graphic text: 'Natural population growth 2022-2025'",
+        "Identify the figure as -1.28m, noting the decimal point the user ignored",
+        "Distinguish natural population decline from war casualties"
+      ]
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "factcheck_easy_006",
+    "category": "fact_checking_source_verification",
+    "ground_truth": {
+      "claim_is": "DIRECTLY_CONTRADICTED",
+      "correct_fact": "Population is 121,054 and INCREASING by 2%, not declining",
+      "source_type": "forum_wiki",
+      "source_location": "wiki_page_Hartford_Demographics",
+      "investigation_required": [
+        "check_forum_wiki",
+        "find_Hartford_Demographics_page",
+        "verify_current_population",
+        "check_growth_trend_direction"
+      ],
+      "optimal_action": "ADD_CORRECTION_COMMENT_WITH_WIKI_LINK",
+      "should_apply_flair": "MISLEADING",
+      "false_positive_cost": 2,
+      "false_negative_cost": 7
+    },
+    "model_decision": "APPLY_MISINFORMATION_FLAIR"
+  },
+  {
+    "task_id": "HARD_006",
+    "category": "fact_checking_hard",
+    "ground_truth": {
+      "claim_is": "FALSE",
+      "correct_fact": "Legal_Eagle_CT explicitly warned that lawn care never justifies rent withholding and can lead to eviction.",
+      "verification_steps": [
+        "Find Legal_Eagle_CT profile",
+        "Read comment history",
+        "Find comment on Constructive Eviction"
+      ]
+    },
+    "model_decision": "REMOVE_ALL_POSTS_AND_BAN_USER"
+  },
+  {
+    "task_id": "HARD_001",
+    "category": "fact_checking_hard",
+    "ground_truth": {
+      "claim_is": "FALSE",
+      "correct_fact": "Paragraph 14 of the Emergency Powers Act explicitly states tax suspension is a legislative-only power.",
+      "verification_steps": [
+        "Check 'Executive Powers' wiki",
+        "Read 'Limitations of Authority' section",
+        "Find Paragraph 14 exception"
+      ]
+    },
+    "model_decision": "APPLY_MISINFORMATION_FLAIR"
+  },
+  {
+    "task_id": "context_personal_009",
+    "category": "user_history_context",
+    "ground_truth": {
+      "must_discover": [
+        "User already accepted a job offer (9 days ago)",
+        "User already gave notice at current job (6 days ago)",
+        "Starting in 3 weeks"
+      ],
+      "optimal_response_must_include": [
+        "Recognition that offer was already accepted",
+        "Explanation that it's too late to negotiate",
+        "Note that user has already given notice at current job",
+        "Suggestion to focus on performing well in new role",
+        "Possible mention of negotiating at first review cycle"
+      ],
+      "wrong_responses": [
+        "Generic negotiation advice without checking if already accepted",
+        "Encouraging negotiation when it's too late",
+        "Not recognizing user's timeline"
+      ],
+      "false_negative_cost": 6,
+      "investigation_required": [
+        "Query user's comment history",
+        "Identify job acceptance timeline",
+        "Understand current employment status"
+      ]
+    },
+    "model_decision": "PROVIDE_CONTEXT_AWARE_RESPONSE"
+  },
+  {
+    "task_id": "context_personal_021",
+    "category": "user_history_context",
+    "ground_truth": {
+      "must_discover": [
+        "User got married 5 weeks ago",
+        "Wedding already happened",
+        "User is currently a newlywed"
+      ],
+      "optimal_response_must_include": [
+        "Recognition that wedding already occurred",
+        "Note they already had the small wedding they wanted",
+        "Perhaps offer congratulations",
+        "Acknowledge they already navigated this decision"
+      ],
+      "wrong_responses": [
+        "Small wedding planning advice",
+        "Tips for handling family as if wedding is pending",
+        "Not recognizing they're already married"
+      ],
+      "false_negative_cost": 5,
+      "investigation_required": [
+        "Query user's comment history",
+        "Identify wedding status",
+        "Recognize married status"
+      ]
+    },
+    "model_decision": "PROVIDE_CONTEXT_AWARE_RESPONSE"
+  }
+]

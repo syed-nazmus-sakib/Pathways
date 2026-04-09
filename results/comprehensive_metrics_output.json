@@ -1,0 +1,238 @@
+{
+  "by_model_category": {
+    "gemini": {
+      "OBVIOUS_FRAUD": {
+        "total": 96,
+        "completed": 74,
+        "correct": 55,
+        "completion_rate": 0.7708333333333334,
+        "accuracy": 0.7432432432432432,
+        "efficiency": 0.2673593805590443
+      },
+      "SECURITY_THREAT": {
+        "total": 96,
+        "completed": 73,
+        "correct": 48,
+        "completion_rate": 0.7604166666666666,
+        "accuracy": 0.6575342465753424,
+        "efficiency": 0.2608750885684462
+      },
+      "LOOKS_GOOD_IS_BAD": {
+        "total": 120,
+        "completed": 95,
+        "correct": 75,
+        "completion_rate": 0.7916666666666666,
+        "accuracy": 0.7894736842105263,
+        "efficiency": 0.25737122676076607
+      },
+      "LOOKS_BAD_IS_GOOD": {
+        "total": 120,
+        "completed": 97,
+        "correct": 32,
+        "completion_rate": 0.8083333333333333,
+        "accuracy": 0.32989690721649484,
+        "efficiency": 0.2562472576255936
+      },
+      "NO_EXPLICIT_NOTE": {
+        "total": 96,
+        "completed": 68,
+        "correct": 45,
+        "completion_rate": 0.7083333333333334,
+        "accuracy": 0.6617647058823529,
+        "efficiency": 0.26665429898947146
+      },
+      "EDGE_CASE": {
+        "total": 80,
+        "completed": 64,
+        "correct": 20,
+        "completion_rate": 0.8,
+        "accuracy": 0.3125,
+        "efficiency": 0.27912587552231005
+      }
+    },
+    "gpt": {
+      "OBVIOUS_FRAUD": {
+        "total": 96,
+        "completed": 80,
+        "correct": 58,
+        "completion_rate": 0.8333333333333334,
+        "accuracy": 0.725,
+        "efficiency": 0.2806183586441992
+      },
+      "SECURITY_THREAT": {
+        "total": 96,
+        "completed": 75,
+        "correct": 70,
+        "completion_rate": 0.78125,
+        "accuracy": 0.9333333333333333,
+        "efficiency": 0.27826835069807276
+      },
+      "LOOKS_GOOD_IS_BAD": {
+        "total": 120,
+        "completed": 102,
+        "correct": 86,
+        "completion_rate": 0.85,
+        "accuracy": 0.8431372549019608,
+        "efficiency": 0.26146823760055704
+      },
+      "LOOKS_BAD_IS_GOOD": {
+        "total": 120,
+        "completed": 105,
+        "correct": 31,
+        "completion_rate": 0.875,
+        "accuracy": 0.29523809523809524,
+        "efficiency": 0.27062769770966205
+      },
+      "NO_EXPLICIT_NOTE": {
+        "total": 96,
+        "completed": 76,
+        "correct": 34,
+        "completion_rate": 0.7916666666666666,
+        "accuracy": 0.4473684210526316,
+        "efficiency": 0.2815633554782021
+      },
+      "EDGE_CASE": {
+        "total": 80,
+        "completed": 63,
+        "correct": 58,
+        "completion_rate": 0.7875,
+        "accuracy": 0.9206349206349206,
+        "efficiency": 0.2759215909657443
+      }
+    },
+    "qwen32b": {
+      "OBVIOUS_FRAUD": {
+        "total": 96,
+        "completed": 39,
+        "correct": 25,
+        "completion_rate": 0.40625,
+        "accuracy": 0.6410256410256411,
+        "efficiency": 0.2777102098226988
+      },
+      "SECURITY_THREAT": {
+        "total": 96,
+        "completed": 25,
+        "correct": 21,
+        "completion_rate": 0.2604166666666667,
+        "accuracy": 0.84,
+        "efficiency": 0.2455137799083724
+      },
+      "LOOKS_GOOD_IS_BAD": {
+        "total": 120,
+        "completed": 40,
+        "correct": 30,
+        "completion_rate": 0.3333333333333333,
+        "accuracy": 0.75,
+        "efficiency": 0.28324023081931543
+      },
+      "LOOKS_BAD_IS_GOOD": {
+        "total": 120,
+        "completed": 44,
+        "correct": 16,
+        "completion_rate": 0.36666666666666664,
+        "accuracy": 0.36363636363636365,
+        "efficiency": 0.26378219438383793
+      },
+      "NO_EXPLICIT_NOTE": {
+        "total": 96,
+        "completed": 35,
+        "correct": 26,
+        "completion_rate": 0.3645833333333333,
+        "accuracy": 0.7428571428571429,
+        "efficiency": 0.24488378190396126
+      },
+      "EDGE_CASE": {
+        "total": 80,
+        "completed": 35,
+        "correct": 9,
+        "completion_rate": 0.4375,
+        "accuracy": 0.2571428571428571,
+        "efficiency": 0.2568436962965357
+      }
+    },
+    "qwen235b": {
+      "OBVIOUS_FRAUD": {
+        "total": 96,
+        "completed": 80,
+        "correct": 62,
+        "completion_rate": 0.8333333333333334,
+        "accuracy": 0.775,
+        "efficiency": 0.2674730800349863
+      },
+      "SECURITY_THREAT": {
+        "total": 96,
+        "completed": 74,
+        "correct": 36,
+        "completion_rate": 0.7708333333333334,
+        "accuracy": 0.4864864864864865,
+        "efficiency": 0.272710940666116
+      },
+      "LOOKS_GOOD_IS_BAD": {
+        "total": 120,
+        "completed": 102,
+        "correct": 76,
+        "completion_rate": 0.85,
+        "accuracy": 0.7450980392156863,
+        "efficiency": 0.2606265896046224
+      },
+      "LOOKS_BAD_IS_GOOD": {
+        "total": 120,
+        "completed": 104,
+        "correct": 30,
+        "completion_rate": 0.8666666666666667,
+        "accuracy": 0.28846153846153844,
+        "efficiency": 0.2566412294833872
+      },
+      "NO_EXPLICIT_NOTE": {
+        "total": 96,
+        "completed": 77,
+        "correct": 60,
+        "completion_rate": 0.8020833333333334,
+        "accuracy": 0.7792207792207793,
+        "efficiency": 0.2716265215656013
+      },
+      "EDGE_CASE": {
+        "total": 80,
+        "completed": 63,
+        "correct": 8,
+        "completion_rate": 0.7875,
+        "accuracy": 0.12698412698412698,
+        "efficiency": 0.2629795565988907
+      }
+    }
+  },
+  "model_totals": {
+    "gemini": {
+      "total": 800,
+      "completed": 618,
+      "correct": 349,
+      "completion_rate": 0.7725,
+      "accuracy": 0.5647249190938511,
+      "efficiency": 0.2630004190079202
+    },
+    "gpt": {
+      "total": 800,
+      "completed": 655,
+      "correct": 406,
+      "completion_rate": 0.81875,
+      "accuracy": 0.6198473282442748,
+      "efficiency": 0.2730637625939066
+    },
+    "qwen32b": {
+      "total": 800,
+      "completed": 281,
+      "correct": 163,
+      "completion_rate": 0.35125,
+      "accuracy": 0.5800711743772242,
+      "efficiency": 0.2626841855748914
+    },
+    "qwen235b": {
+      "total": 800,
+      "completed": 654,
+      "correct": 353,
+      "completion_rate": 0.8175,
+      "accuracy": 0.5397553516819572,
+      "efficiency": 0.2636186621268017
+    }
+  }
+}

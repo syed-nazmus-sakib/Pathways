@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Task Type} & \textbf{N} & \textbf{Accuracy} & \textbf{Discovery} & \textbf{Usage} & \textbf{Investigation} & \textbf{Categories} \\
+\midrule
+Obvious Pattern & 227 & 76.2\% & 18.5\% & 36.1\% & Not needed & \scriptsize{OBVIOUS\_FRAUD, VIP\_CUSTOMER} \\
+Hidden Threat & 241 & 67.6\% & 24.1\% & 29.0\% & Helpful & \scriptsize{SECURITY\_THREAT, LOOKS\_GOOD\_IS\_BAD} \\
+Surface Contradiction & 257 & 30.0\% & 17.9\% & 33.9\% & \textbf{Critical} & \scriptsize{LOOKS\_BAD\_IS\_GOOD, WAREHOUSE\_OPS} \\
+Implicit Reasoning & 112 & 76.8\% & 0.0\% & 0.0\% & Inference needed & \scriptsize{NO\_EXPLICIT\_NOTE} \\
+Adversarial & 98 & 4.1\% & 99.0\% & 12.2\% & Complex & \scriptsize{EDGE\_CASE} \\
+\bottomrule
+\end{tabular}
+\caption{PATHWAYS benchmark task types ordered by investigation dependency. \textbf{Surface Contradiction} tasks require investigation but show lowest discovery rates, revealing systematic agent failures.}
+\label{tab:task_types}
+\end{table*}
