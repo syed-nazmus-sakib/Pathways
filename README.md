@@ -46,10 +46,6 @@ pathways_icml_submission/
 │   ├── pathways_full_20260124_164014/       ← llama evaluation run
 │   └── pathways_qwen_20260117_125811/       ← Qwen evaluation run
 │
-└── methodology/                       ← design documents
-    ├── decision_scoring_methodology.md
-    ├── pathways_evaluation_methodology.md
-    └── PATHWAYS_v3_Shopping_Admin_Design.md
 ```
 
 ---
